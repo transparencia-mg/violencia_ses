@@ -1,6 +1,2 @@
 [tool.taskipy.tasks]
-linux-env = { cmd = "python3 -m venv venv", help = "Cria ambiente virtual python em máquina linux." }
-windows-env = { cmd = "python -m venv venv", help = "Cria ambiente virtual python em máquina windows." }
-linux-install = { cmd = "source venv/bin/activate && pip install -r requirements.txt", help = "Instala pacotes python em máquina linux." }
-windows-install = { cmd = "source venv/Scripts/activate && pip install -r requirements.txt", help = "Instala pacotes python em máquina linux." }
 list = { cmd = "pip list", help = "Lista pacotes Python instalados." }
