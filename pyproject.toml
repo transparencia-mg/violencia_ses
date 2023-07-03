@@ -1,2 +1,2 @@
 [tool.taskipy.tasks]
-install-packages = { cmd = "pip list", help = "Lista pacotes Python instalados." }
+installed-packages = { cmd = "pip list", help = "Lista pacotes Python instalados." }
