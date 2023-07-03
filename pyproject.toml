@@ -1,3 +1,3 @@
 [tool.taskipy.tasks]
 installed-packages = { cmd = "pip list", help = "Lista pacotes Python instalados." }
-convert-csv = { cmd = "python scripts/convert_csv", help = "Converte arquivos Excel em csv." }
+convert-csv = { cmd = "python scripts/convert_csv.py", help = "Converte arquivos Excel em csv." }
