@@ -1,0 +1,2 @@
+[tool.taskipy.tasks]
+list = { cmd = "pip list", help = "Lista pacotes Python instalados." }
