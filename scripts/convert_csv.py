@@ -7,13 +7,14 @@ from unidecode import unidecode
 def convert_csv():
   upload_files = os.listdir('upload')
   for file in upload_files:
-    read_file = pd.read_excel (f'upload/{file}')
-    columns = read_file.columns
-    new_columns = []
-    for column in columns:
-      new_columns.append(snake_small_case(column))
-    csv_name = file.split('.xlsx')[0]
-    read_file.columns=new_columns
+    if file.endswith('.xlsx') or file.endswith('.xls'):
+        read_file = pd.read_excel (f'upload/{file}')
+        columns = read_file.columns
+        new_columns = []
+        for column in columns:
+            new_columns.append(snake_small_case(column))
+        csv_name = file.split('.xls')[0] # to xlsx and xls
+        read_file.columns=new_columns
 
     # Remove white spaces from the beginning and the end of all columns
     for column in new_columns:
