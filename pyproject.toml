@@ -1,3 +1,4 @@
 [tool.taskipy.tasks]
 convert-csv = { cmd = "python scripts/convert_csv.py", help = "Converte arquivos Excel em csv." }
-datapackage-yaml = { cmd = "python scripts/create_datapackage_yaml.py", help = "Converte cria datapackage.yaml caso este ainda não exista." }
+datapackage-yaml = { cmd = "python scripts/create_datapackage_yaml.py", help = "Cria datapackage.yaml caso este ainda não exista." }
+datapackage-json = { cmd = "frictionless describe datapackage.yaml --type package --json > datapackage.json", help = "Converte datapackage.yaml em datapackage.json." }
