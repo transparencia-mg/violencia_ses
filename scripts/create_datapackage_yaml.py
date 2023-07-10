@@ -4,7 +4,7 @@ from frictionless import describe
 def create_datapackage_yaml():
     dataset_files = os.listdir('dataset')
     if 'datapackage.yaml' not in dataset_files:
-        package = describe('dataset/data', type="package")
+        package = describe('dataset/data', type='package', basepath='dataset')
         package['name'] = 'nome-pacote'
         package['owner-org'] = 'organizacao-pacote'
         for resource in package.resources:
