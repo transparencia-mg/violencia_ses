@@ -14,7 +14,7 @@ Para escalarecimento sobre o fluxo completo de abertura de dados, favor consulta
 
 ### Como participar
 
-A configuração de novo dataset template está sendo feita de forma aberta e colaborativa no [GitHub](https://github.com/transparencia-mg/new-dataset-template).
+A configuração deste dataset template está sendo feita de forma aberta e colaborativa no [GitHub](https://github.com/transparencia-mg/new-dataset-template).
 Existem duas alternativas para enviar sua contribuição:
 
 - [Issues](https://github.com/transparencia-mg/new-dataset-template/issues): Para iniciar uma discussão sobre melhorias de funcionalidades.
@@ -28,6 +28,8 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 * Correção de erros de ortografia e gramática.
 
 ### Setup do projeto
+
+- Para realizar os passos descritos a seguir as etapas para construção da base de dados a ser aberta já devem ter sido finalizadas[^1].
 
 - **Realize o fork do projeto** (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
 
@@ -57,3 +59,13 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 ![ckan_chave_nome](https://imgur.com/AwD8hgc.png)
 
 ![ckan_chave_criada](https://imgur.com/4qgD7HS.png)
+
+- Cadastrar GitHub pages para mostrar relatório de validação:
+
+![fork_settings](https://imgur.com/I3OFQwu.png)
+
+![fork_pages](https://imgur.com/QMSmQ78.png)
+
+![fork_pages](https://imgur.com/dHStfzi.png)
+
+[^1]: [Ciclo de Abertura, Documentação, Validação e Publicação](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/).
