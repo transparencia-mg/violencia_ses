@@ -1,4 +1,4 @@
-# Dataset
+# Conjunto de dados - Dataset
 
 Este dataset template é um conjunto de automatizações desenvolvidas pela Diretoria Central de Transparência Ativa - DCTA/CGE para criação, documentação, validação e publicação (criação e atualização em instâncias do CKAN) de conjunto de dados ou datasets.
 
@@ -29,6 +29,30 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 
 ### Setup do projeto
 
-- Realize o fork do projeto:
+- Realize o fork do projeto (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
 
-![fork_projeto](https://imgur.com/a/cxclAuk.png)
+![fork_projeto](https://imgur.com/uOZlh8a.png)
+
+- Selecione a organização a qual o novo conjunto de dados será criado e preencha o nome do novo repositório (o nome deverá ser o mesmo do conjunto que será criado na instância do CKAN):
+
+![fork_org_name](https://imgur.com/bqSjsyQ.png)
+
+- Cadastre Secrets para publicação em instância CKAN:
+
+![fork_settings](https://imgur.com/I3OFQwu.png)
+
+![fork_secrets](https://imgur.com/aan0HNd.png)
+
+![fork_new_secrets](https://imgur.com/Xg2TLCd.png)
+
+- Deverão ser criadas duas secrets:
+    - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
+    - CKAN_KEY_USUARIO_GITHUB: se meu usuário GitHub é `gabrielbdornas` minha esta chave será `CKAN_KEY_GABRIELBDORNAS`. (Necessário criar um novo API Token na instância CKAN desejada):
+
+![ckan_chave](https://imgur.com/Dr1VxG8.png)
+
+![ckan_chave_token](https://imgur.com/TpUQoLM.png)
+
+![ckan_chave_nome](https://imgur.com/AwD8hgc.png)
+
+![ckan_chave_criada](https://imgur.com/4qgD7HS.png)
