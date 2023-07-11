@@ -3,7 +3,8 @@ name: Publicação/atualização de dataset em instância CKAN
 on:
   push:
     paths:
-      - 'dataset'
+      - 'dataset/'
+      - 'upload/'
 
 jobs:
   build:
