@@ -68,4 +68,6 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 
 ![fork_pages](https://imgur.com/dHStfzi.png)
 
+- Para rodar o processo automatiado basta incluir base de dados a ser aberta na pasta `upload` do novo repositório forkado e configurado.
+
 [^1]: [Ciclo de Abertura, Documentação, Validação e Publicação](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/).
