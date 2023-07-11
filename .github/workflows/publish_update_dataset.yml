@@ -46,34 +46,16 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Cria arquivo index.html de validação.
-
-  validate:
-
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Validate dataset
-        uses: frictionlessdata/repository@v1
-  ckan:
-    runs-on: ubuntu-latest
-    container:
-      image: gabrielbdornas/dtamg:latest
-    needs: validate
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-          ref: main
       - id: string
         uses: ASzc/change-string-case-action@v1
         with:
           string: ${{ github.actor }}
-      - name: Update dataset in CKAN with dpckan
+      - name: Create dataset in CKAN with dpckan with not exist
+        env:
+          CKAN_HOST: ${{ secrets.CKAN_HOST }}
+          CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
+        run: dpckan --datastore --ckan-host "$CKAN_HOST" --ckan-key "$CKAN_KEY" dataset create
+      - name: Update dataset in CKAN with dpckan with exist
         env:
           CKAN_HOST: ${{ secrets.CKAN_HOST }}
           CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
