@@ -1,6 +1,6 @@
-# New Dataset Template
+# Dataset
 
-O Novo Dataset template é um conjunto de automatizações criado pela Diretoria Central de Transparência Ativa - DCTA/CGE para criação, documentação, validação e publicação (criação e atualização em instâncias do CKAN) de conjunto de dados.
+Este dataset template é um conjunto de automatizações desenvolvidas pela Diretoria Central de Transparência Ativa - DCTA/CGE para criação, documentação, validação e publicação (criação e atualização em instâncias do CKAN) de conjunto de dados ou datasets.
 
 Para escalarecimento sobre o fluxo completo de abertura de dados, favor consultar o [Manual do Portal de Dados Abertos de Minas Gerais](https://transparencia-mg.github.io/manual-dados-mg).
 
@@ -14,11 +14,11 @@ Para escalarecimento sobre o fluxo completo de abertura de dados, favor consulta
 
 ### Como participar
 
-A configuração de novo dataset template está sendo feita de forma aberta e colaborativa no [Github](https://github.com/transparencia-mg/new-dataset-template).
+A configuração de novo dataset template está sendo feita de forma aberta e colaborativa no [GitHub](https://github.com/transparencia-mg/new-dataset-template).
 Existem duas alternativas para enviar sua contribuição:
 
-- [Issues](https://github.com/transparencia-mg/issues): Para iniciar uma discussão sobre melhorias de funcionalidades.
-- [Pull requests](https://github.com/transparencia-mg/pulls): Para sugerir uma alteração concreta na ferramenta.
+- [Issues](https://github.com/transparencia-mg/new-dataset-template/issues): Para iniciar uma discussão sobre melhorias de funcionalidades.
+- [Pull requests](https://github.com/transparencia-mg/new-dataset-template/pulls): Para sugerir uma alteração concreta na ferramenta.
 
 Todas as contribuições são bem vindas. Alguns exemplos são:
 
@@ -26,3 +26,9 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 * Sugestões para inclusão de descrições em campos específicos;
 * Sugestões para clareza na organização das ideias;
 * Correção de erros de ortografia e gramática.
+
+### Setup do projeto
+
+- Realize o fork do projeto:
+
+![fork_projeto](https://imgur.com/a/cxclAuk.png)
