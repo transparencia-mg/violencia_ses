@@ -1,8 +1,10 @@
 name: Report
 
 on:
-  workflow_run:
-    workflows: ["CKAN"]
+  push:
+    paths:
+      - 'dataset/data/*'
+      - 'dataset/datapackage.json'
 
 jobs:
   local_validation:
