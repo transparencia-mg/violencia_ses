@@ -38,11 +38,11 @@ jobs:
         uses: ASzc/change-string-case-action@v1
         with:
           string: ${{ github.actor }}
-      - name: Create dataset in CKAN with dpckan with not exist
+      - name: Create dataset in CKAN with not exist
         env:
           CKAN_HOST: ${{ secrets.CKAN_HOST }}
           CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
-        run: dpckan --datastore --ckan-host "$CKAN_HOST" --ckan-key "$CKAN_KEY" dataset create
+        run: dpckan --datastore --datapackage dataset/datapackage.json --ckan-host "$CKAN_HOST" --ckan-key "$CKAN_KEY" dataset create
       - name: Update dataset in CKAN with dpckan with exist
         env:
           CKAN_HOST: ${{ secrets.CKAN_HOST }}
