@@ -42,6 +42,7 @@ jobs:
         with:
           string: ${{ github.actor }}
       - name: Create dataset in CKAN with not exist
+        continue-on-error: true
         env:
           CKAN_HOST: ${{ secrets.CKAN_HOST }}
           CKAN_KEY: ${{ secrets[format('CKAN_KEY_{0}', steps.string.outputs.uppercase)] }}
