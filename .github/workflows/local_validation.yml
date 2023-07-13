@@ -1,0 +1,36 @@
+name: Validação Local com criação de relatório html
+
+on:
+  push:
+    paths:
+      - 'dataset/data/*'
+      - 'dataset/datapackage.*'
+
+jobs:
+  local_validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install packages
+        run: pip install -r requirements.txt
+      - name: Create datapackage.json
+        run: task json
+      - name: Commit new datapackage.json
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Cria datapackage.json via script.
+      - name: Validate dataset
+        run: task validate
+      - name: Commit new datapackage_validation.json
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Cria datapackage_validation.json via script.
+      - name: Create Report
+        run: task report
+      - name: Commit new index.html report file.
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Cria arquivo index.html de validação.
