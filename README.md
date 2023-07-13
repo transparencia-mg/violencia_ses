@@ -29,7 +29,7 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 
 ### Setup do projeto
 
-- **Todas as etapas para construção de um base de dados deverão estar finalizadas[^1] para realização dos passos descritos a seguir**.
+- **Todas as etapas de preparação da base de dados a ser publicada deverão estar finalizadas[^1] para realização dos passos descritos a seguir**.
 
 - **Realize o fork do projeto** (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
 
@@ -48,6 +48,7 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 ![fork_new_secrets](https://imgur.com/Xg2TLCd.png)
 
 - **Deverão ser criadas dois secrets**:
+    - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculada (nome disponível na url CKAN após `https://ckan-instance/organization/`)
     - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
     - CKAN_KEY_USUARIO_GITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`.
         - **Necessário criar um novo API Token na instância CKAN desejada**:

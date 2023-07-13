@@ -1,4 +1,5 @@
 ipdb==0.13.13
+python-dotenv==1.0.0
 taskipy==1.11.0
 pandas==1.5.3
 dpckan==0.1.21
