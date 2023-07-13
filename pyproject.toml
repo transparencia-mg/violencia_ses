@@ -4,3 +4,4 @@ yaml = { cmd = "python scripts/create_datapackage_yaml.py", help = "Cria datapac
 json = { cmd = "python scripts/create_datapackage_json.py", help = "Converte datapackage.yaml em datapackage.json." }
 validate = { cmd = "python scripts/validate.py", help = "Valida dataset." }
 report = { cmd = "livemark build index.md --target index.html", help = "Gera relatório de validação." }
+dpckan = { cmd = "python scripts/create_update_dataset.py", help = "Cria ou atualiza conjunto em instância CKAN." }
