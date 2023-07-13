@@ -31,13 +31,13 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 
 ```mermaid
 graph TD;
-    1((Início))-->2;
+    1(Início)-->2;
     2[Forcar dataset template]-->3;
     3[Cadastrar secrets]-->4;
     4[Configurar github pages]-->5;
-    5[Incluir arquivo(s) Excel na pasta upload]-->6;
-    6[Publição CKAN]-->7;
-    7((Fim))
+    5[Incluir arquivo .xls na pasta upload]-->6;
+    6[Script publica novo conjunto no CKAN]-->7;
+    7(Fim)
 ```
 
 ### Setup do projeto
