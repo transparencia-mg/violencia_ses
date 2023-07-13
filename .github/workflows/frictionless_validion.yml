@@ -1,8 +1,8 @@
-name: Validação Frictionless
+name: Frictionless
 
 on:
   workflow_run:
-    workflows: ["publish_update"]
+    workflows: ["CKAN"]
 
 jobs:
   frictionless_validation:

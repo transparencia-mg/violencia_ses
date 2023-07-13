@@ -1,4 +1,4 @@
-name: Publicação/atualização de dataset em instância CKAN
+name: CKAN
 
 on:
   push:
