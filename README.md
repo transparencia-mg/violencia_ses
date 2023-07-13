@@ -27,6 +27,19 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 * Sugestões para clareza na organização das ideias;
 * Correção de erros de ortografia e gramática.
 
+### Fluxo de execução
+
+```mermaid
+graph TD;
+    1(Início)-->2;
+    2[Forcar dataset template]-->3;
+    3[Cadastrar secrets]-->4;
+    4[Configurar github pages]-->5;
+    5[Incluir arquivo .xls na pasta upload]-->6;
+    6[Script publica novo conjunto no CKAN]-->7;
+    7(Fim)
+```
+
 ### Setup do projeto
 
 - **Todas as etapas de preparação da base de dados a ser publicada deverão estar finalizadas[^1] para realização dos passos descritos a seguir**.
