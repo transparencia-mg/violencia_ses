@@ -1,10 +1,8 @@
 name: Validação Local com criação de relatório html
 
 on:
-  push:
-    paths:
-      - 'dataset/data/*'
-      - 'dataset/datapackage.json'
+  workflow_run:
+    workflows: ["publish_update"]
 
 jobs:
   local_validation:
