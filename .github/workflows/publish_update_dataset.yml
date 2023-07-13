@@ -24,6 +24,7 @@ jobs:
           commit_message: Converte Excel para CSV via script.
       - name: Create datapackage.yaml
         env:
+          DATASET_NAME: ${{ github.event.repository.name }}
           OWNER_ORG: ${{ secrets.OWNER_ORG }}
         run: task yaml
       - name: Commit new datapackage.yaml
