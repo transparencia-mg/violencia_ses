@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'dataset/data/*'
-      - 'dataset/datapackage.*'
+      - 'dataset/datapackage.json'
 
 jobs:
   frictionless_validation:

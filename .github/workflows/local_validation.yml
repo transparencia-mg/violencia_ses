@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'dataset/data/*'
-      - 'dataset/datapackage.*'
+      - 'dataset/datapackage.json'
 
 jobs:
   local_validation:
@@ -16,12 +16,6 @@ jobs:
           fetch-depth: 0
       - name: Install packages
         run: pip install -r requirements.txt
-      - name: Create datapackage.json
-        run: task json
-      - name: Commit new datapackage.json
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Cria datapackage.json via script.
       - name: Validate dataset
         run: task validate
       - name: Commit new datapackage_validation.json
