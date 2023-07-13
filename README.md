@@ -29,7 +29,7 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 
 ### Setup do projeto
 
-- Para realizar os passos descritos a seguir as etapas para construção da base de dados a ser aberta já devem ter sido finalizadas[^1].
+- **Todas as etapas para construção de um base de dados deverão estar finalizadas[^1] para realização dos passos descritos a seguir**.
 
 - **Realize o fork do projeto** (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
 
