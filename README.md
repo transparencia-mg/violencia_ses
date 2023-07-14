@@ -60,8 +60,11 @@ graph TD;
 
 ![fork_new_secrets](https://imgur.com/Xg2TLCd.png)
 
-- **Deverão ser criadas dois secrets**:
-    - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculada (nome disponível na url CKAN após `https://ckan-instance/organization/`)
+- **Deverão ser criadas três secrets**:
+    - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após `https://ckan-instance/organization/`), exemplos
+      - `controladoria-geral-do-estado-cge` em https://dados.mg.gov.br/organization/controladoria-geral-do-estado-cge
+      - `secretaria-de-estado-de-planejamento-e-gestao-seplag` em https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag.
+            
     - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
     - CKAN_KEY_USUARIO_GITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`.
         - **Necessário criar um novo API Token na instância CKAN desejada**:
