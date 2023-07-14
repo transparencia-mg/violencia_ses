@@ -90,7 +90,7 @@ graph TD;
 
 ![fork_pages](https://imgur.com/dHStfzi.png)
 
-
+![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/f66216ef-4faa-426d-8d49-002dcb5b9de0)
 
 - Para rodar o processo automatizado basta incluir base de dados a ser aberta na pasta `upload`, dentro da pasta `dataset` do novo repositório forkado e configurado.
 
