@@ -70,8 +70,9 @@ graph TD;
   OBS.: Certifique-se também de que seu usuário está cadastrado para a organização que deseja cadastrar o novo conjunto de dados, seja em [produção](https://dados.mg.gov.br/dashboard/organizations) em [homologação](https://homologa.cge.mg.gov.br/dashboard/organizations)
          
     - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
-    - CKAN_KEY_USUARIO_GITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`.
-        - **Necessário criar um novo API Token na instância CKAN desejada**:
+    - CKAN_KEY_USUARIOGITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`. Para o `andrelamor`, o secret `CKAN_KEY_ANDRELAMOR`
+      
+        - **Necessário criar um novo API Token na instância CKAN desejada (copiar e colar o valor `API TOKEN created` da 4ª tela printada a seguir)**:
 
 ![ckan_chave](https://imgur.com/Dr1VxG8.png)
 
@@ -89,7 +90,7 @@ graph TD;
 
 ![fork_pages](https://imgur.com/dHStfzi.png)
 
-![fork_about](https://imgur.com/dHStfzi.png)
+
 
 - Para rodar o processo automatiado basta incluir base de dados a ser aberta na pasta `upload` do novo repositório forkado e configurado.
 
