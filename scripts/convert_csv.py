@@ -1,5 +1,4 @@
 import os
-import sys
 import pandas as pd
 import re
 from unidecode import unidecode
@@ -9,6 +8,9 @@ def convert_csv():
   for file in upload_files:
     if file.endswith('.xlsx') or file.endswith('.xls'):
         read_file = pd.read_excel (f'upload/{file}')
+        read_file = read_file \
+                    .replace('\n', ' ', regex=True) \
+                    .replace('\r', '', regex=True)
         columns = read_file.columns
         new_columns = []
         for column in columns:
@@ -18,10 +20,18 @@ def convert_csv():
 
     # Remove white spaces from the beginning and the end of all columns
     for column in new_columns:
-        if read_file[column].dtype == object and isinstance(read_file.iloc[0][column], str):
-            read_file[column] = [read_file[column][i].strip() for i in range(0, len(read_file))]
+        for i in range(0, len(read_file)):
+            if isinstance(read_file[column][i], str):
+               read_file[column][i] = read_file[column][i].strip()
 
-    read_file.to_csv (f'dataset/data/{csv_name}.csv', index = None, header=True, sep = ';', decimal = ',', encoding = 'utf-8-sig', na_rep = "")
+    read_file.to_csv (f'dataset/data/{csv_name}.csv', \
+                    index = None, \
+                    header=True, \
+                    sep = ';', \
+                    decimal = ',', \
+                    encoding = 'utf-8-sig', \
+                    na_rep = ""\
+                    )
 
 def snake_small_case(column):
   column_lower = column.lower()
