@@ -20,9 +20,10 @@ def convert_csv():
 
     # Remove white spaces from the beginning and the end of all columns
     for column in new_columns:
-        for i in range(0, len(read_file)):
-            if isinstance(read_file[column][i], str):
-               read_file[column][i] = read_file[column][i].strip()
+        read_file[column] = [read_file[column][i].strip() \
+                             if isinstance(read_file[column][i], str) \
+                             else read_file[column][i] \
+                             for i in range(0, len(read_file))]
 
     read_file.to_csv (f'dataset/data/{csv_name}.csv', \
                     index = None, \
