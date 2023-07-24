@@ -50,8 +50,8 @@ graph TD;
 
 - Selecione a organização a qual o novo conjunto de dados será criado e preencha o nome do novo repositório (**o nome deverá ser o mesmo do conjunto que será criado na instância do CKAN**).
 
-  OBS.: Certifique-se que o nome desejado para o novo conjunto não está sendo usando, pela lista dos conjuntos atualmente publicados [em ambiente de produção](https://dados.mg.gov.br/api/3/action/package_list) e [homologação](https://homologa.cge.mg.gov.br/api/3/action/package_list) ou pelas respectivas páginas dos conjuntos publicados: [produção](https://dados.mg.gov.br/dataset/) e [homologação](https://homologa.cge.mg.gov.br/dataset/) 
-   
+  OBS.: Certifique-se que o nome desejado para o novo conjunto não está sendo usando, pela lista dos conjuntos atualmente publicados [em ambiente de produção](https://dados.mg.gov.br/api/3/action/package_list) e [homologação](https://homologa.cge.mg.gov.br/api/3/action/package_list) ou pelas respectivas páginas dos conjuntos publicados: [produção](https://dados.mg.gov.br/dataset/) e [homologação](https://homologa.cge.mg.gov.br/dataset/)
+
 ![fork_org_name](https://imgur.com/bqSjsyQ.png)
 
 - **Cadastre Secrets para publicação em instância CKAN**:
@@ -66,12 +66,12 @@ graph TD;
     - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após `https://ckan-instance/organization/`), exemplos
       - `controladoria-geral-do-estado-cge` em https://dados.mg.gov.br/organization/controladoria-geral-do-estado-cge
       - `secretaria-de-estado-de-planejamento-e-gestao-seplag` em https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag.
-  
+
   OBS.: Certifique-se também de que seu usuário está cadastrado para a organização que deseja cadastrar o novo conjunto de dados, seja em [produção](https://dados.mg.gov.br/dashboard/organizations) em [homologação](https://homologa.cge.mg.gov.br/dashboard/organizations)
-         
+
     - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
     - CKAN_KEY_USUARIOGITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`. Para o `andrelamor`, o secret `CKAN_KEY_ANDRELAMOR`
-      
+
         - **Necessário criar um novo API Token na instância CKAN desejada (copiar e colar o valor `API TOKEN created` da 4ª tela printada a seguir)**:
 
 ![ckan_chave](https://imgur.com/Dr1VxG8.png)
@@ -91,6 +91,12 @@ graph TD;
 ![fork_pages](https://imgur.com/dHStfzi.png)
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/f66216ef-4faa-426d-8d49-002dcb5b9de0)
+
+- Configurar GitHub pages para link aparecer na página inicial do repositório:
+
+![fork_pages](https://imgur.com/https://imgur.com/VtduVFv.png)
+
+![fork_pages](https://imgur.com/TYN8J2Z.png)
 
 - Configurar permissão para Actions ler e escrever no repositório:
 
