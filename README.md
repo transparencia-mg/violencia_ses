@@ -94,9 +94,9 @@ graph TD;
 
 - Configurar GitHub pages para link aparecer na página inicial do repositório:
 
-![fork_pages](https://imgur.com/https://imgur.com/VtduVFv.png)
+![pages](https://imgur.com/VtduVFv.png)
 
-![fork_pages](https://imgur.com/TYN8J2Z.png)
+![pages](https://imgur.com/TYN8J2Z.png)
 
 - Configurar permissão para Actions ler e escrever no repositório:
 
