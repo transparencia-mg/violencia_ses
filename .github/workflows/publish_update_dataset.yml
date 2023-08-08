@@ -19,7 +19,6 @@ jobs:
         run: |
           COMMIT_SHA=$(git rev-parse HEAD)
           AUTHOR_INFO=$(curl -s https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$COMMIT_SHA)
-          echo "$AUTHOR_INFO"
           echo "$AUTHOR_INFO" >> commit_info.json
       - name: Extract Author Info
         id: extract-author
@@ -28,8 +27,8 @@ jobs:
           AUTHOR_EMAIL=$(jq -r '.commit.author.email' commit_info.json)
           echo "Author Name: $AUTHOR_NAME"
           echo "Author Email: $AUTHOR_EMAIL"
-          echo "::set-output name=author_name::$AUTHOR_NAME"
-          echo "::set-output name=author_email::$AUTHOR_EMAIL"
+          echo "AUTHOR_NAME=$AUTHOR_NAME" >> $GITHUB_ENV
+          echo "AUTHOR_EMAIL=$AUTHOR_EMAIL" >> $GITHUB_ENV
       - name: Install packages
         run: pip install -r requirements.txt
       - name: Convert CSV
@@ -37,8 +36,8 @@ jobs:
       - name: Commit CSV
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: ${{ steps.extract-author.outputs.author_name }}
-          commit_user_email: ${{ steps.extract-author.outputs.author_email }}
+          commit_user_name: ${{ env.AUTHOR_NAME }}
+          commit_user_email: ${{ env.AUTHOR_EMAIL }}
           commit_message: Converte Excel para CSV via script.
       - name: Create datapackage.yaml
         env:
@@ -48,16 +47,16 @@ jobs:
       - name: Commit new datapackage.yaml
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: ${{ steps.extract-author.outputs.author_name }}
-          commit_user_email: ${{ steps.extract-author.outputs.author_email }}
+          commit_user_name: ${{ env.AUTHOR_NAME }}
+          commit_user_email: ${{ env.AUTHOR_EMAIL }}
           commit_message: Cria datapackage.yaml caso não exista via script.
       - name: Create datapackage.json
         run: task json
       - name: Commit new datapackage.json
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: ${{ steps.extract-author.outputs.author_name }}
-          commit_user_email: ${{ steps.extract-author.outputs.author_email }}
+          commit_user_name: ${{ env.AUTHOR_NAME }}
+          commit_user_email: ${{ env.AUTHOR_EMAIL }}
           commit_message: Cria datapackage.json via script.
       - id: string
         uses: ASzc/change-string-case-action@v1
