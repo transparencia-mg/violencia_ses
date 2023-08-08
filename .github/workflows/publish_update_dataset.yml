@@ -16,6 +16,10 @@ jobs:
           fetch-depth: 0
       - name: Install packages
         run: pip install -r requirements.txt
+      - name: Testa commit author
+        run: echo ${github.event.commits[0].author.name}
+      - name: Testa commit email
+        run: echo ${github.event.commits[0].author.email}
       - name: Convert CSV
         run: task csv
       - name: Commit CSV
