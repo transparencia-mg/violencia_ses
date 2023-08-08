@@ -14,19 +14,31 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      - name: Fetch Commit Info
+        id: commit-info
+        run: |
+          TOKEN=$GH_TOKEN
+          COMMIT_SHA=$(git rev-parse HEAD)
+          AUTHOR_INFO=$(curl -s -H "Authorization: Bearer $TOKEN" https://api.github.com/repos/$GITHUB_REPOSITORY/commits/$COMMIT_SHA)
+          echo "$AUTHOR_INFO" >> commit_info.json
+      - name: Extract Author Info
+        id: extract-author
+        run: |
+          AUTHOR_NAME=$(jq -r '.commit.author.name' commit_info.json)
+          AUTHOR_EMAIL=$(jq -r '.commit.author.email' commit_info.json)
+          echo "Author Name: $AUTHOR_NAME"
+          echo "Author Email: $AUTHOR_EMAIL"
+          echo "::set-output name=author_name::$AUTHOR_NAME"
+          echo "::set-output name=author_email::$AUTHOR_EMAIL"
       - name: Install packages
         run: pip install -r requirements.txt
-      - name: Testa commit author
-        run: echo ${github.event.commits[0].author.name}
-      - name: Testa commit email
-        run: echo ${github.event.commits[0].author.email}
       - name: Convert CSV
         run: task csv
       - name: Commit CSV
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: ${github.event.commits[0].author.name}
-          commit_user_email: ${github.event.commits[0].author.email}
+          commit_user_name: ${{ steps.extract-author.outputs.author_name }}
+          commit_user_email: ${{ steps.extract-author.outputs.author_email }}
           commit_message: Converte Excel para CSV via script.
       - name: Create datapackage.yaml
         env:
@@ -36,16 +48,16 @@ jobs:
       - name: Commit new datapackage.yaml
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: ${github.event.commits[0].author.name}
-          commit_user_email: ${github.event.commits[0].author.email}
+          commit_user_name: ${{ steps.extract-author.outputs.author_name }}
+          commit_user_email: ${{ steps.extract-author.outputs.author_email }}
           commit_message: Cria datapackage.yaml caso não exista via script.
       - name: Create datapackage.json
         run: task json
       - name: Commit new datapackage.json
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: ${github.event.commits[0].author.name}
-          commit_user_email: ${github.event.commits[0].author.email}
+          commit_user_name: ${{ steps.extract-author.outputs.author_name }}
+          commit_user_email: ${{ steps.extract-author.outputs.author_email }}
           commit_message: Cria datapackage.json via script.
       - id: string
         uses: ASzc/change-string-case-action@v1
