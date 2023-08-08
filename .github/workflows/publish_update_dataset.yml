@@ -38,7 +38,7 @@ jobs:
         with:
           commit_message: Cria datapackage.json via script.
       - name: Frictionless validation
-        use: frictionlessdata/repository@v2
+        uses: frictionlessdata/repository@v2
       - id: string
         uses: ASzc/change-string-case-action@v1
         with:
