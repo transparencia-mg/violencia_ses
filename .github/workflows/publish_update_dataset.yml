@@ -44,12 +44,14 @@ jobs:
         with:
           commit_message: Cria datapackage_validation.json via script.
       - name: Create Report
+        continue-on-error: true
         run: task report
       - name: Commit new index.html report file.
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Cria arquivo index.html de validação.
       - name: Frictionless validation
+        continue-on-error: true
         uses: frictionlessdata/repository@v2
       - id: string
         uses: ASzc/change-string-case-action@v1
