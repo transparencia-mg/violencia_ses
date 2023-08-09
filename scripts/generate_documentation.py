@@ -3,8 +3,8 @@ import subprocess
 
 remote_url = subprocess.check_output(['git', 'remote', 'get-url', 'origin']).decode('utf-8').strip()
 owner_repo = remote_url.split(':')[-1].split('.')[0]
-owner, repo = owner_repo.split('/')
-
+owner = owner_repo.split('/')[0]
+repo = owner_repo.split('/')[1]
 
 # Define the dynamic data
 dynamic_data = {
