@@ -9,6 +9,7 @@ def create_datapackage_yaml():
     if 'datapackage.yaml' not in dataset_files:
         package = describe('./data', type='package', basepath='./dataset')
         package['name'] = os.getenv("DATASET_NAME")
+        package['title'] = ' '.join(os.getenv("DATASET_NAME").split('-')).capitalize()
         package['owner_org'] = os.getenv("OWNER_ORG")
         for resource in package.resources:
             resource['description'] = 'Insira a descrição/explicação detalhada deste recurso.'
