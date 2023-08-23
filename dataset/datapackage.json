@@ -1,0 +1,115 @@
+{
+  "name": "bens-tombados",
+  "title": "Bens Tombados",
+  "description": "O patrimônio cultural tombado pelo Estado de Minas Gerais diz respeito aos bens culturais materiais que, em função de seu valor histórico, artístico, estético, afetivo, simbólico, dentre outros, receberam proteção pelo poder público estadual pelo instrumento do tombamento",
+  "owner_org": "instituto-estadual-do-patrimonio-historico-e-artistico-de-minas-gerais-iepha",
+  "profile": "data-package",
+  "homepage": "https://github.com/transparencia-mg/bens-tombados",
+  "frequência de atualização": "por evento",
+  "version": 0.1,
+  "contributors": [
+    {
+      "title": "Diretoria de Proteção e Memória",
+      "role": "publisher",
+      "email": "daniele.ferreira@iepha.mg.gov.br"
+    },
+    {
+      "title": "Diretoria Central de Transparência Ativa da Controladoria-Central do Estado",
+      "role": "maintainer",
+      "email": "transparencia@cge.mg.gov.br"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "keywords": [
+    "patrimônio",
+    "tombamento",
+    "bens tombados"
+  ],
+  "resources": [
+    {
+      "description": "Bens Tombados - preparação em homologa para publicação com template.",
+      "dialect": {
+        "delimiter": ";",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "processos-tombo",
+      "path": "data/processos-tombo.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "processo_ano",
+            "type": "string",
+            "description": "Número e ano de abertura do processo de tombamento",
+            "format": "default"
+          },
+          {
+            "name": "denominacao",
+            "type": "string",
+            "description": "Designação do bem tombado",
+            "format": "default"
+          },
+          {
+            "name": "denominacao_completa",
+            "type": "string",
+            "description": "Designação do bem tombado conforme consta no processo de tombamento",
+            "format": "default"
+          },
+          {
+            "name": "categoria",
+            "type": "string",
+            "description": "Designaçaõ das categorias como BI - bem imóvel; BM - bem móvel; CH - centro histórico;  CP - conjunto paisagístico",
+            "format": "default"
+          },
+          {
+            "name": "classe_subclasse",
+            "type": "string",
+            "description": "Classe e subclasse de identificação do bem tombado",
+            "format": "default"
+          },
+          {
+            "name": "municipio",
+            "type": "string",
+            "description": "Município(s) em que se localiza o bem tombado",
+            "format": "default"
+          },
+          {
+            "name": "distrito",
+            "type": "string",
+            "description": "Distrito(s) em que se localiza o bem tombado",
+            "format": "default"
+          },
+          {
+            "name": "ato_legal",
+            "type": "string",
+            "description": "Ato legal que instituiu o tombamento",
+            "format": "default"
+          },
+          {
+            "name": "livro_de_tombo",
+            "type": "string",
+            "description": "Livro(s) do tombo em que o bem tombado está inscrito - desingnações definidas pelo Decreto Estadual nº 14.260/1972 Livro I = Livro de Tombo Arqueológico, Etnográfico e Paisagístico, as coisas pertinentes à categoria de artes ou achados arqueológicos, etnográficos e ameríndios, arte popular, grutas ou jazidas pré-históricas, paisagens naturais e coisas congêneres Livro II = Livro do Tombo de Belas Artes, as coisas de arte erudita, nacional ou estrangeira Livro III = Livro do Tombo Histórico, as coisas de interesse histórico, as obras de arte históricas e os documentos paleográficos ou bibliográficos Livro IV = Livro do Tombo das Artes Aplicadas, as obras, nacionais ou estrangeiras, que se incluam na categoria das artes aplicadas",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "scheme": "file",
+      "title": "Bens Tombados"
+    }
+  ]
+}
