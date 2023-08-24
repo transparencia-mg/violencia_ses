@@ -1,18 +1,18 @@
 contributors:
   - email: daniele.ferreira@iepha.mg.gov.br
     role: publisher
-    title: Diretoria de ProteÁ„o e MemÛria
+    title: Diretoria de Prote√ß√£o e Mem√≥ria
   - email: transparencia@cge.mg.gov.br
     role: maintainer
-    title: Diretoria Central de TransparÍncia Ativa da Controladoria-Central do Estado
-description: O patrimÙnio cultural tombado pelo Estado de Minas Gerais diz respeito
-  aos bens culturais materiais que, em funÁ„o de seu valor histÛrico, artÌstico, estÈtico,
-  afetivo, simbÛlico, dentre outros, receberam proteÁ„o pelo poder p˙blico estadual
+    title: Diretoria Central de Transpar√™ncia Ativa da Controladoria-Central do Estado
+description: O patrim√¥nio cultural tombado pelo Estado de Minas Gerais diz respeito
+  aos bens culturais materiais que, em fun√ß√£o de seu valor hist√≥rico, art√≠stico, est√©tico,
+  afetivo, simb√≥lico, dentre outros, receberam prote√ß√£o pelo poder p√∫blico estadual
   pelo instrumento do tombamento
-frequÍncia de atualizaÁ„o: por evento
+frequ√™ncia de atualiza√ß√£o: por evento
 homepage: https://github.com/transparencia-mg/bens-tombados
 keywords:
-  - patrimÙnio
+  - patrim√¥nio
   - tombamento
   - bens tombados
 licenses:
@@ -23,7 +23,7 @@ name: bens-tombados
 owner_org: instituto-estadual-do-patrimonio-historico-e-artistico-de-minas-gerais-iepha
 profile: data-package
 resources:
-  - description: Bens Tombados - preparaÁ„o em homologa para publicaÁ„o com template.
+  - description: Bens Tombados - prepara√ß√£o em homologa para publica√ß√£o com template.
     dialect:
       delimiter: ;
       doubleQuote: true
@@ -38,52 +38,61 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - description: N˙mero e ano de abertura do processo de tombamento
+        - title: Processo
+          description: N√∫mero e ano de abertura do processo de tombamento
           format: default
           name: processo_ano
           type: string
-        - description: DesignaÁ„o do bem tombado
+        - title: Denomina√ß√£o
+          description: Designa√ß√£o do bem tombado
           format: default
           name: denominacao
           type: string
-        - description: DesignaÁ„o do bem tombado conforme consta no processo de tombamento
+        - title: Denomina√ß√£o completa
+          description: Designa√ß√£o do bem tombado conforme consta no processo de tombamento
           format: default
           name: denominacao_completa
           type: string
-        - description: DesignaÁaı das categorias como BI - bem imÛvel; BM - bem mÛvel;
-            CH - centro histÛrico;  CP - conjunto paisagÌstico
+        - title: Categoria
+          description:  |
+            - >
+              Designa√ß√£o das categorias como BI - bem im√≥vel; BM - bem m√≥vel; CH - centro hist√≥rico;  CP - conjunto paisag√≠stico
           format: default
           name: categoria
           type: string
-        - description: Classe e subclasse de identificaÁ„o do bem tombado
+        - title: Classe e subclasse
+          description: Classe e subclasse de identifica√ß√£o do bem tombado
           format: default
           name: classe_subclasse
           type: string
-        - description: MunicÌpio(s) em que se localiza o bem tombado
+        - title: Munic√≠pio
+          description: Munic√≠pio(s) em que se localiza o bem tombado
           format: default
           name: municipio
           type: string
-        - description: Distrito(s) em que se localiza o bem tombado
+        - title: Distrito
+          description: Distrito(s) em que se localiza o bem tombado
           format: default
           name: distrito
           type: string
-        - description: Ato legal que instituiu o tombamento
+        - title: Ato legal
+          description: Ato legal que instituiu o tombamento
           format: default
           name: ato_legal
           type: string
-        - description: Livro(s) do tombo em que o bem tombado est· inscrito - desingnaÁıes
-            definidas pelo Decreto Estadual n∫ 14.260/1972 Livro I = Livro de Tombo
-            ArqueolÛgico, Etnogr·fico e PaisagÌstico, as coisas pertinentes ‡ categoria
-            de artes ou achados arqueolÛgicos, etnogr·ficos e amerÌndios, arte popular,
-            grutas ou jazidas prÈ-histÛricas, paisagens naturais e coisas congÍneres
-            Livro II = Livro do Tombo de Belas Artes, as coisas de arte erudita, nacional
-            ou estrangeira Livro III = Livro do Tombo HistÛrico, as coisas de interesse
-            histÛrico, as obras de arte histÛricas e os documentos paleogr·ficos ou
-            bibliogr·ficos Livro IV = Livro do Tombo das Artes Aplicadas, as obras,
-            nacionais ou estrangeiras, que se incluam na categoria das artes aplicadas
-          format: default
-          name: livro_de_tombo
-          type: string
+        - title: Livro de tombo
+          description:  |
+            - >
+              Livro(s) do tombo em que o bem tombado est√° inscrito - desingna√ß√µes
+              definidas pelo Decreto Estadual n¬∫ 14.260/1972 Livro I = Livro de Tombo
+              Arqueol√≥gico, Etnogr√°fico e Paisag√≠stico, as coisas pertinentes √† categoria
+              de artes ou achados arqueol√≥gicos, etnogr√°ficos e amer√≠ndios, arte popular,
+              grutas ou jazidas pr√©-hist√≥ricas, paisagens naturais e coisas cong√™neres
+              Livro II = Livro do Tombo de Belas Artes, as coisas de arte erudita, nacional
+              ou estrangeira Livro III = Livro do Tombo Hist√≥rico, as coisas de interesse
+              hist√≥rico, as obras de arte hist√≥ricas e os documentos paleogr√°ficos ou
+              bibliogr√°ficos Livro IV = Livro do Tombo das Artes Aplicadas, as obras,
+              nacionais ou estrangeiras, que se incluam na categoria das artes aplicadas
       missingValues:
         - ''
     scheme: file
