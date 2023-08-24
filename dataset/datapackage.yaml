@@ -54,8 +54,7 @@ resources:
           name: denominacao_completa
           type: string
         - title: Categoria
-          description:  |
-            - >
+          description: >
               Designação das categorias como BI - bem imóvel; BM - bem móvel; CH - centro histórico;  CP - conjunto paisagístico
           format: default
           name: categoria
@@ -81,8 +80,7 @@ resources:
           name: ato_legal
           type: string
         - title: Livro de tombo
-          description:  |
-            - >
+          description: >
               Livro(s) do tombo em que o bem tombado está inscrito (desingnações definidas pelo Decreto Estadual nº 14.260/1972) Livro I = Livro de Tombo Arqueológico, Etnográfico e Paisagístico, as coisas pertinentes à categoria de artes ou achados arqueológicos, etnográficos e ameríndios, arte popular, grutas ou jazidas pré-históricas, paisagens naturais e coisas congêneres; Livro II = Livro do Tombo de Belas Artes, as coisas de arte erudita, nacional ou estrangeira; Livro III = Livro do Tombo Histórico, as coisas de interesse histórico, as obras de arte históricas e os documentos paleográficos ou bibliográficos; Livro IV = Livro do Tombo das Artes Aplicadas, as obras, nacionais ou estrangeiras, que se incluam na categoria das artes aplicadas
       missingValues:
         - ''
