@@ -2,12 +2,14 @@ import os
 import pandas as pd
 import re
 from unidecode import unidecode
+import config
 
 def convert_csv():
   upload_files = os.listdir('upload')
   for file in upload_files:
+    aba = config.abas.get(file)
     if file.endswith('.xlsx') or file.endswith('.xls'):
-        read_file = pd.read_excel (f'upload/{file}')
+        read_file = pd.read_excel (f'upload/{file}', aba)
         read_file = read_file \
                     .replace('\n', ' ', regex=True) \
                     .replace('\r', '', regex=True)
@@ -15,7 +17,7 @@ def convert_csv():
         new_columns = []
         for column in columns:
             new_columns.append(snake_small_case(column))
-        csv_name = file.split('.xls')[0] # to xlsx and xls
+        csv_name = file.split('.xls')[0] if aba != None else aba # to xlsx and xls
         read_file.columns=new_columns
 
     # Remove white spaces from the beginning and the end of all columns
