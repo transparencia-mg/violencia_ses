@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Print variables
         run: |
-          echo ${{ github }} | jq .
+          echo "${{ github }}" | jq .
