@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Print variables
         run: |
-          echo ${{ github }} | jq '. | to_entries[] | .value.name'
+          echo ${{ github }} | jq .
