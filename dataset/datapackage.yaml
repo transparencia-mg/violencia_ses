@@ -38,70 +38,83 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - title: Processo
-          description: Número e ano de abertura do processo de tombamento
+        - description: Número e ano de abertura do processo de tombamento
           format: default
           name: processo_ano
+          title: Processo e Ano
           type: string
-        - title: Denominação
-          description: Designação do bem tombado
+        - description: Designação do bem tombado
           format: default
           name: denominacao
+          title: Denominação
           type: string
-        - title: Denominação completa
-          description: Designação do bem tombado conforme consta no processo de tombamento
+        - description: Designação do bem tombado conforme consta no processo de tombamento
           format: default
           name: denominacao_completa
+          title: Denominação Completa
           type: string
-        - title: Categoria
-          description: >
-              Designação das categorias dos bens como BI - bem imóvel; BM - bem móvel; CH - centro histórico;  CP - conjunto paisagístico
-          constraints:
+        - constraints:
             enum:
-              - 'BI'
-              - 'BM' 
-              - 'CH' 
-              - 'CP' 
+              - BI
+              - BM
+              - CH
+              - CP
+          description: Designaçaõ das categorias como BI - bem imóvel; BM - bem móvel;
+            CH - centro histórico;  CP - conjunto paisagístico
           format: default
           name: categoria
+          title: Categoria
           type: string
-        - title: Classe e subclasse
-          description: Classe e subclasse de identificação do bem tombado
+        - description: Classe e subclasse de identificação do bem tombado
           format: default
           name: classe_subclasse
+          title: Classe e Subclasse
           type: string
-        - title: Município
-          description: Município(s) em que se localiza o bem tombado
+        - description: Município(s) em que se localiza o bem tombado
           format: default
           name: municipio
+          title: Município
           type: string
-        - title: Distrito
-          description: Distrito(s) em que se localiza o bem tombado
+        - description: Distrito(s) em que se localiza o bem tombado
           format: default
           name: distrito
+          title: Distrito
           type: string
-        - title: Ato legal
-          description: Ato legal que instituiu o tombamento
+        - description: Ato legal que instituiu o tombamento
           format: default
           name: ato_legal
+          title: Ato Legal
           type: string
-        - title: Livro de tombo
-          description: >
-              Livro(s) do tombo em que o bem tombado está inscrito 
-          notes:
-          - Desingnações definidas pelo Decreto Estadual nº 14.260/1972;
-          - Livro I - Livro de Tombo Arqueológico, Etnográfico e Paisagístico, as coisas pertinentes à categoria de artes ou achados arqueológicos, etnográficos e ameríndios, arte popular, grutas ou jazidas pré-históricas, paisagens naturais e coisas congêneres;
-          - Livro II - Livro do Tombo de Belas Artes, as coisas de arte erudita, nacional ou estrangeira; 
-          - Livro III - Livro do Tombo Histórico, as coisas de interesse histórico, as obras de arte históricas e os documentos paleográficos ou bibliográficos; 
-          - Livro IV - Livro do Tombo das Artes Aplicadas, as obras, nacionais ou estrangeiras, que se incluam na categoria das artes aplicadas
-          constraints:
-          enum:
-            - 'I'
-            - 'II'
-            - 'III'
-            - 'IV'
+        - constraints:
+            enum:
+              - I
+              - II
+              - III
+              - IV
+              - I, II
+              - I, III
+              - I, III, IV
+              - I, II, III
+              - II, III
+              - II, III, IV
+              - I, II, III, IV
+          description: 'Livro(s) do tombo em que o bem tombado está inscrito. As desingnações
+            estão definidas pelo Decreto Estadual nº 14.260/1972: Livro I = Livro
+            de Tombo Arqueológico, Etnográfico e Paisagístico, as coisas pertinentes
+            à categoria de artes ou achados arqueológicos, etnográficos e ameríndios,
+            arte popular, grutas ou jazidas pré-históricas, paisagens naturais e coisas
+            congêneres. Livro II = Livro do Tombo de Belas Artes, as coisas de arte
+            erudita, nacional ou estrangeira. Livro III = Livro do Tombo Histórico,
+            as coisas de interesse histórico, as obras de arte históricas e os documentos
+            paleográficos ou bibliográficos. Livro IV = Livro do Tombo das Artes Aplicadas,
+            as obras, nacionais ou estrangeiras, que se incluam na categoria das artes
+            aplicadas.'
+          format: default
+          name: livro_de_tombo
+          title: Livro de Tombo
+          type: string
       missingValues:
-        - ''
+        - '0'
     scheme: file
     title: Bens Tombados
 title: Bens Tombados
