@@ -11,5 +11,4 @@ jobs:
     steps:
       - name: Print variables
         run: |
-          echo " - $GITHUB_REF"
-          echo " - $GITHUB_HEAD"
+          echo " - ${{ github }}"
