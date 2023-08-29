@@ -130,7 +130,9 @@ Clicando em `Fork`, é possível listar todos os repositórios que foram gerados
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/7830e2fb-b2bf-434c-87b3-e366e5efa7a1)
 
-**Atenção! NECESSÁRIO ESTAR DENTRO DA PASTA `dataset` para que as modificações automáticas sejam publicadas no CKAN. Cuidar para que o publicador não edite os arquivos da raiz do template.**:
+**Atenção! NECESSÁRIO ESTAR DENTRO DA PASTA `dataset` (README, CHANGELOG, CONTRIBUTING) ou `upload` (arquivo excel xlsx) para que as modificações automáticas sejam publicadas no CKAN. Cuidar para que o publicador não edite os arquivos da raiz do template.**:
+![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/3e0dd4fa-cd29-420e-b9b7-1b1c888802e5)
+
 
 
 
