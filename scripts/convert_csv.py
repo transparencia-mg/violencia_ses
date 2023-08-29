@@ -17,7 +17,7 @@ def find_all_files():
 
 def convert_csv(file, aba=None):
     read_file = pd.read_excel (f'upload/{file}', aba)
-    read_file = list(read_file.items())[0][1]
+    read_file = list(read_file.items())[0][1] if aba == None else read_file
     read_file = read_file \
                 .replace('\n', ' ', regex=True) \
                 .replace('\r', '', regex=True)
@@ -26,7 +26,8 @@ def convert_csv(file, aba=None):
     for column in columns:
         new_columns.append(snake_small_case(column))
     # import ipdb; ipdb.set_trace(context=10)
-    csv_name = file.split('.xls')[0] if aba == None else f'{file}_{aba}' # to xlsx and xls
+    csv_name = file.split('.xls')[0]
+    csv_name = csv_name if aba == None else f'{csv_name}_{aba}' # to xlsx and xls
     read_file.columns=new_columns
 
     # Remove white spaces from the beginning and the end of all columns
