@@ -133,7 +133,16 @@ Clicando em `Fork`, é possível listar todos os repositórios que foram gerados
 **Atenção! NECESSÁRIO ESTAR DENTRO DA PASTA `dataset` (README, CHANGELOG, CONTRIBUTING) ou `upload` (arquivo excel xlsx) para que as modificações automáticas sejam publicadas no CKAN. Cuidar para que o publicador não edite os arquivos da raiz do template.**:
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/3e0dd4fa-cd29-420e-b9b7-1b1c888802e5)
 
+#### Arquivo excel com mais de uma aba
 
-
+Abas: caso mais de uma aba em um arquivo excel necessite ser convertida para CSV, basta descomentar o código no arquivo `config.py` e incluir o nome do arquivo (com a correta extensão) e sua(s) respectiva(s) aba(s) para conversão.
+````
+abas = {
+#     'nome_do_arquivo.xlsx': [
+#         'nome_da_aba1',
+#         'nome_da_aba2',
+#         'nome_da_aba3',
+#     ],
+````
 
 [^1]: [Ciclo de Abertura, Documentação, Validação e Publicação](https://transparencia-mg.github.io/manual-dados-mg/0.1/2.%20Ciclo%20de%20publica%C3%A7%C3%A3o%20de%20dados/006_etapas_abertura/).
