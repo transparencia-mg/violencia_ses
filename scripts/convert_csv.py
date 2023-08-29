@@ -27,7 +27,7 @@ def convert_csv(file, aba=None):
         new_columns.append(snake_small_case(column))
     # import ipdb; ipdb.set_trace(context=10)
     csv_name = file.split('.xls')[0]
-    csv_name = csv_name if aba == None else f'{csv_name}_{aba}' # to xlsx and xls
+    csv_name = csv_name if aba == None else f'{aba}' # to xlsx and xls
     read_file.columns=new_columns
 
     # Remove white spaces from the beginning and the end of all columns
