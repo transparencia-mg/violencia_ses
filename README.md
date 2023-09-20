@@ -48,11 +48,12 @@ graph TD;
 
 ### Fork do projeto
 
-- 1. Realize o fork do projeto (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
+1- Realize o fork do projeto (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
 
 ![fork_projeto](https://imgur.com/uOZlh8a.png)
 
-- 2. Selecione a organização a qual o novo conjunto de dados será criado e preencha o nome do novo repositório (**o nome deverá ser o mesmo do conjunto que será criado na instância do CKAN**).
+2- Selecione a organização a qual o novo conjunto de dados será criado e preencha o nome do novo repositório (**o nome deverá ser o mesmo do conjunto que será criado na instância do CKAN**).
+
 
   OBS.: Certifique-se que o nome desejado para o novo conjunto não está sendo usando, pela lista dos conjuntos atualmente publicados [em ambiente de produção](https://dados.mg.gov.br/api/3/action/package_list) e [homologação](https://homologa.cge.mg.gov.br/api/3/action/package_list) ou pelas respectivas páginas dos conjuntos publicados: [produção](https://dados.mg.gov.br/dataset/) e [homologação](https://homologa.cge.mg.gov.br/dataset/)
 
@@ -60,7 +61,7 @@ graph TD;
 
 ### Cadastrar Secrets
 
-- 1. Para cadastrar a Secrets para publicação em instância CKAN seguir os passos abaixo:
+1-. Para cadastrar a Secrets para publicação em instância CKAN seguir os passos abaixo:
 
 ![fork_settings](https://imgur.com/I3OFQwu.png)
 
@@ -68,19 +69,19 @@ graph TD;
 
 ![fork_new_secrets](https://imgur.com/Xg2TLCd.png)
 
-- 2. Deverão ser criadas três secrets:
-  
-    - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após `https://ckan-instance/organization/`).
-          Exemplos:
-          - `controladoria-geral-do-estado-cge` em https://dados.mg.gov.br/organization/controladoria-geral-do-estado-cge
-          - `secretaria-de-estado-de-planejamento-e-gestao-seplag` em https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag.
+2- Deverão ser criadas três secrets:
+
+- OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após `https://ckan-instance/organization/`).<br>
+  Exemplos:
+  - `controladoria-geral-do-estado-cge` em https://dados.mg.gov.br/organization/controladoria-geral-do-estado-cge
+  - `secretaria-de-estado-de-planejamento-e-gestao-seplag` em https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag.
 
   OBS.: Certifique-se também de que seu usuário está cadastrado para a organização que deseja cadastrar o novo conjunto de dados, seja em [produção](https://dados.mg.gov.br/dashboard/organizations) em [homologação](https://homologa.cge.mg.gov.br/dashboard/organizations)
 
-    - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
-    - CKAN_KEY_USUARIOGITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`. Para o `andrelamor`, o secret `CKAN_KEY_ANDRELAMOR`
+- CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
+- CKAN_KEY_USUARIOGITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`. Para o `andrelamor`, o secret `CKAN_KEY_ANDRELAMOR`
 
-        - Para completar o cadastro na instância CKAN_KEY é necessário criar um novo API Token (copiar e colar o valor `API TOKEN created` da 4ª tela printada a seguir):
+    - Para completar o cadastro na instância CKAN_KEY é necessário criar um novo API Token (copiar e colar o valor `API TOKEN created`):
 
 ![ckan_chave](https://imgur.com/Dr1VxG8.png)
 
@@ -88,9 +89,11 @@ graph TD;
 
 ![ckan_chave_nome](https://imgur.com/AwD8hgc.png)
 
+  - Copiar e colar esse valores `API TOKEN created`
+
 ![ckan_chave_criada](https://imgur.com/4qgD7HS.png)
 
-- 4. Cadastrar GitHub pages para mostrar relatório de validação:
+### Cadastrar GitHub pages para mostrar relatório de validação:
 
 ![fork_settings](https://imgur.com/I3OFQwu.png)
 
@@ -100,39 +103,47 @@ graph TD;
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/f66216ef-4faa-426d-8d49-002dcb5b9de0)
 
-- 5. Configurar GitHub pages para link aparecer na página inicial do repositório:
+### Configurar GitHub pages para link aparecer na página inicial do repositório:
 
 ![pages](https://imgur.com/VtduVFv.png)
 
 ![pages](https://imgur.com/TYN8J2Z.png)
 
-- 6. Configurar permissão para Actions ler e escrever no repositório:
+### Configurar permissão para Actions ler e escrever no repositório:
 
-  OBS.: Caso a permissão para Actions ler e escrever no repositório não esteja habilitada, esta configuração deverá ser feita também no nível da organização.
+Caso a permissão para Actions ler e escrever no repositório não esteja habilitada, esta configuração deverá ser feita também no nível da organização.
 
 ![fork_settings](https://imgur.com/I3OFQwu.png)
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/7e5f739a-1b15-4bd1-a225-1cd75655d80b)
 
-## Atualizações
+## Atualizações de dados
 
-### Do template
+### A partir do repositório template
 
-- Nos repositórios forkados do new-dataset-template, observar se há commits do repositório template para serem sincronizados:
+1- Nos repositórios forkados do new-dataset-template, observar se há commits do repositório template para serem sincronizados:
+
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/060715a7-e1e1-43a3-9a76-9286f20b4807)
-Basta clicar em `Sync fork`e, depois, no botão `update branch`:
+
+
+2- Caso positivo, clique em `Sync fork`e, depois, no botão `update branch`:
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/82642ae9-7d97-4e84-9603-6701e4591cb6)
-Aparecerá a mensagem na tarja superior em azul-claro:
+
+3- Aparecerá a mensagem na tarja superior em azul-claro:
+
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/5a259c7e-61ab-42cc-ae0e-dadce259778e)
 
 Observe que o repositório clonado na máquina precisará do `pull`, para ser atualizado após esse sync, como qualquer alteração que ocorre no github.
 
+**Observação:**
+
 Clicando em `Fork`, é possível listar todos os repositórios que foram gerados a partir do new-dataset-template, e conferir um por um:
+
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/55a59bac-d1b4-4383-ad0d-cb5dcfc5ac3d)
 
 ### Dos dados nos novos repositórios criados
 
-- Para rodar o processo automatizado basta incluir base de dados a ser aberta na pasta `upload`, dentro da pasta `dataset` do novo repositório forkado e configurado:
+Para rodar o processo automatizado basta incluir base de dados a ser aberta na pasta `upload`, dentro da pasta `dataset` do novo repositório forkado e configurado:
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/f70225bc-a887-479e-bf1e-dacfc4975004)
 
