@@ -2,7 +2,8 @@
 
 Este dataset template é um conjunto de automatizações desenvolvidas pela Diretoria Central de Transparência Ativa - DCTA/CGE para criação, documentação, validação e publicação (criação e atualização em instâncias do CKAN) de conjunto de dados ou datasets.
 
-Para esclarecimento sobre o fluxo completo de abertura de dados, favor consultar o [Manual do Portal de Dados Abertos de Minas Gerais](https://transparencia-mg.github.io/manual-dados-mg).
+- Para esclarecimento sobre o fluxo completo de abertura de dados, favor consultar o [Manual do Portal de Dados Abertos de Minas Gerais](https://transparencia-mg.github.io/manual-dados-mg).
+- Para criação de usuários nas ferramentas utilizadas na publicação de dados, favor consultar [Criação de usuário](https://github.com/transparencia-mg/handbook/blob/main/docs/posts/20230920_criacao_usuario_git_dadosmg.md)
 
 ### Funcionalidades:
 
@@ -43,9 +44,11 @@ graph TD;
 
 ## Setup do projeto
 
-- **Todas as etapas de preparação da base de dados a ser publicada deverão estar finalizadas[^1] para realização dos passos descritos a seguir**.
+**Todas as etapas de preparação da base de dados a ser publicada e criação de usuários deverão estar finalizadas[^1] para realização dos passos descritos a seguir**.
 
-- 1. **Realize o fork do projeto** (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
+### Fork do projeto
+
+- 1. Realize o fork do projeto (utilizaremos um fork para conseguir atualizar as automatizações com maior facilidade no futuro):
 
 ![fork_projeto](https://imgur.com/uOZlh8a.png)
 
@@ -55,7 +58,9 @@ graph TD;
 
 ![fork_org_name](https://imgur.com/bqSjsyQ.png)
 
-- 3. **Cadastre Secrets para publicação em instância CKAN**:
+### Cadastrar Secrets
+
+- 1. Para cadastrar a Secrets para publicação em instância CKAN seguir os passos abaixo:
 
 ![fork_settings](https://imgur.com/I3OFQwu.png)
 
@@ -63,17 +68,19 @@ graph TD;
 
 ![fork_new_secrets](https://imgur.com/Xg2TLCd.png)
 
-- **Deverão ser criadas três secrets**:
-    - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após `https://ckan-instance/organization/`), exemplos
-      - `controladoria-geral-do-estado-cge` em https://dados.mg.gov.br/organization/controladoria-geral-do-estado-cge
-      - `secretaria-de-estado-de-planejamento-e-gestao-seplag` em https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag.
+- 2. Deverão ser criadas três secrets:
+  
+    - OWNER_ORG: Organização dentro da instância do CKAN desejada a qual o conjunto de dados será vinculado (nome disponível na url CKAN após `https://ckan-instance/organization/`).
+          Exemplos:
+          - `controladoria-geral-do-estado-cge` em https://dados.mg.gov.br/organization/controladoria-geral-do-estado-cge
+          - `secretaria-de-estado-de-planejamento-e-gestao-seplag` em https://homologa.cge.mg.gov.br/organization/secretaria-de-estado-de-planejamento-e-gestao-seplag.
 
   OBS.: Certifique-se também de que seu usuário está cadastrado para a organização que deseja cadastrar o novo conjunto de dados, seja em [produção](https://dados.mg.gov.br/dashboard/organizations) em [homologação](https://homologa.cge.mg.gov.br/dashboard/organizations)
 
     - CKAN_HOST: Instância CKAN desejada, exemplo: `https://homologa.cge.mg.gov.br`
     - CKAN_KEY_USUARIOGITHUB: se meu usuário GitHub é `gabrielbdornas` este secret será `CKAN_KEY_GABRIELBDORNAS`. Para o `andrelamor`, o secret `CKAN_KEY_ANDRELAMOR`
 
-        - **Necessário criar um novo API Token na instância CKAN desejada (copiar e colar o valor `API TOKEN created` da 4ª tela printada a seguir)**:
+        - Para completar o cadastro na instância CKAN_KEY é necessário criar um novo API Token (copiar e colar o valor `API TOKEN created` da 4ª tela printada a seguir):
 
 ![ckan_chave](https://imgur.com/Dr1VxG8.png)
 
