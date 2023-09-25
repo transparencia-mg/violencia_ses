@@ -119,7 +119,7 @@ Caso a permissão para Actions ler e escrever no repositório não esteja habili
 
 ### Incluir arquivo para publicação:
 
-Para rodar o processo automatizado é necessário a inclusção do arquivo .xlsx ou .xls na pasta de dados `upload` do novo repositório forkado e configurado
+Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx ou .xls na pasta de dados `upload` do novo repositório forkado e configurado.
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/53793354/8c6b1794-88e4-41c8-97c6-9fa751bce23f)
 
@@ -151,7 +151,7 @@ Clicando em `Fork`, é possível listar todos os repositórios que foram gerados
 
 ### Dos dados nos novos repositórios criados
 
-Para alterar qualquer arquivo referente aos dados publicados é **ncessário estar dentro da pasta `dataset` para os aquivos: README, CHANGELOG, CONTRIBUTING) ou para `upload` para os arquivos excel xlsx.** As modificações automáticas só serão publicadas no CKAN se as alterações forem realiadas nessas pastas. 
+Para alterar qualquer arquivo referente aos dados publicados é **necessário estar dentro da pasta `dataset` para os aquivos: (README, CHANGELOG, CONTRIBUTING) ou dentro da pasta `upload` para os arquivos excel xlsx.** As modificações automáticas só serão publicadas no CKAN se as alterações forem realizadas nestas pastas. 
 
 **ATENÇÃO: NÃO ALTERAR/EDITAR os arquivos da raiz do template.**:
 
