@@ -117,6 +117,14 @@ Caso a permissão para Actions ler e escrever no repositório não esteja habili
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/7e5f739a-1b15-4bd1-a225-1cd75655d80b)
 
+### Incluir arquivo para publicação:
+
+Para rodar o processo automatizado é necessário a inclusção do arquivo .xlsx ou .xls na pasta de dados `upload` do novo repositório forkado e configurado
+
+![image](https://github.com/transparencia-mg/new-dataset-template/assets/53793354/8c6b1794-88e4-41c8-97c6-9fa751bce23f)
+
+Após a inclusão do arquivo o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
+
 ## Atualizações de dados
 
 ### A partir do repositório template
@@ -143,13 +151,10 @@ Clicando em `Fork`, é possível listar todos os repositórios que foram gerados
 
 ### Dos dados nos novos repositórios criados
 
-Para rodar o processo automatizado basta incluir base de dados a ser aberta na pasta `upload`, dentro da pasta `dataset` do novo repositório forkado e configurado:
+Para alterar qualquer arquivo referente aos dados publicados é **ncessário estar dentro da pasta `dataset` para os aquivos: README, CHANGELOG, CONTRIBUTING) ou para `upload` para os arquivos excel xlsx.** As modificações automáticas só serão publicadas no CKAN se as alterações forem realiadas nessas pastas. 
 
-![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/f70225bc-a887-479e-bf1e-dacfc4975004)
+**ATENÇÃO: NÃO ALTERAR/EDITAR os arquivos da raiz do template.**:
 
-![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/7830e2fb-b2bf-434c-87b3-e366e5efa7a1)
-
-**Atenção! NECESSÁRIO ESTAR DENTRO DA PASTA `dataset` (README, CHANGELOG, CONTRIBUTING) ou `upload` (arquivo excel xlsx) para que as modificações automáticas sejam publicadas no CKAN. Cuidar para que o publicador não edite os arquivos da raiz do template.**:
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/3e0dd4fa-cd29-420e-b9b7-1b1c888802e5)
 
 #### Arquivo excel com mais de uma aba
