@@ -101,20 +101,20 @@ Caso a permissão para Actions ler e escrever no repositório não esteja habili
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/7e5f739a-1b15-4bd1-a225-1cd75655d80b)
 
-### Incluir arquivo para publicação:
-
-Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx ou .xls na pasta de dados `upload` do novo repositório forkado e configurado.
-
-![image](https://github.com/transparencia-mg/new-dataset-template/assets/53793354/8c6b1794-88e4-41c8-97c6-9fa751bce23f)
-
-
 ### ACTIONS:
 
 Após finalizar os passos acima, clicar em Actions e selecionar o botão verde " I understand my workflows, go ahead and enable them"
 
 ![image](https://github.com/user-attachments/assets/8be5b36d-4404-4409-8bdc-ef823c43641e)
 
-Após o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
+
+### Incluir arquivo para publicação:
+
+Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx ou .xls na pasta de dados `upload` do novo repositório forkado e configurado.
+
+![image](https://github.com/transparencia-mg/new-dataset-template/assets/53793354/8c6b1794-88e4-41c8-97c6-9fa751bce23f)
+
+Após incluir o arquivo o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
 
 
 ## Atualizações de dados
