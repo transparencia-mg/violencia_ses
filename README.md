@@ -93,22 +93,6 @@ graph TD;
 
 ![ckan_chave_criada](https://imgur.com/4qgD7HS.png)
 
-### Cadastrar GitHub pages para mostrar relatório de validação:
-
-![fork_settings](https://imgur.com/I3OFQwu.png)
-
-![fork_pages](https://imgur.com/QMSmQ78.png)
-
-![fork_pages](https://imgur.com/dHStfzi.png)
-
-![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/f66216ef-4faa-426d-8d49-002dcb5b9de0)
-
-### Configurar GitHub pages para link aparecer na página inicial do repositório:
-
-![pages](https://imgur.com/VtduVFv.png)
-
-![pages](https://imgur.com/TYN8J2Z.png)
-
 ### Configurar permissão para Actions ler e escrever no repositório:
 
 Caso a permissão para Actions ler e escrever no repositório não esteja habilitada, esta configuração deverá ser feita também no nível da organização.
@@ -116,6 +100,12 @@ Caso a permissão para Actions ler e escrever no repositório não esteja habili
 ![fork_settings](https://imgur.com/I3OFQwu.png)
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/7e5f739a-1b15-4bd1-a225-1cd75655d80b)
+
+### Cadastrar GitHub pages para mostrar relatório de validação:
+
+Após finalizar os passo acima, a página abaixo será exibida. Clique no botão verde
+
+![image](https://github.com/user-attachments/assets/8102d6f0-4f07-435a-92bb-3af3c4b09146)
 
 ### Incluir arquivo para publicação:
 
