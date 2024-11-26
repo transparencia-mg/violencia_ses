@@ -101,12 +101,6 @@ Caso a permissão para Actions ler e escrever no repositório não esteja habili
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/49699290/7e5f739a-1b15-4bd1-a225-1cd75655d80b)
 
-### Cadastrar GitHub pages para mostrar relatório de validação:
-
-Após finalizar os passo acima, a página abaixo será exibida. Clique no botão verde
-
-![image](https://github.com/user-attachments/assets/8102d6f0-4f07-435a-92bb-3af3c4b09146)
-
 ### Incluir arquivo para publicação:
 
 Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx ou .xls na pasta de dados `upload` do novo repositório forkado e configurado.
@@ -114,6 +108,13 @@ Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx o
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/53793354/8c6b1794-88e4-41c8-97c6-9fa751bce23f)
 
 Após a inclusão do arquivo o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
+
+### Cadastrar GitHub pages para mostrar relatório de validação:
+
+Após finalizar os passos acima, clicar em Actions e selecionar o botão verde " I understand my workflows, go ahead and enable them"
+
+![image](https://github.com/user-attachments/assets/8be5b36d-4404-4409-8bdc-ef823c43641e)
+
 
 ## Atualizações de dados
 
