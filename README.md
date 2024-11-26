@@ -107,13 +107,14 @@ Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx o
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/53793354/8c6b1794-88e4-41c8-97c6-9fa751bce23f)
 
-Após a inclusão do arquivo o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
 
 ### ACTIONS:
 
 Após finalizar os passos acima, clicar em Actions e selecionar o botão verde " I understand my workflows, go ahead and enable them"
 
 ![image](https://github.com/user-attachments/assets/8be5b36d-4404-4409-8bdc-ef823c43641e)
+
+Após o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
 
 
 ## Atualizações de dados
