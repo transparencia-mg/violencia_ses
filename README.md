@@ -109,7 +109,7 @@ Para rodar o processo automatizado é necessária a inclusão do arquivo .xlsx o
 
 Após a inclusão do arquivo o processo encontra-se concluído. Verifique se os dados foram corretamente publicados
 
-### Cadastrar GitHub pages para mostrar relatório de validação:
+### ACTIONS:
 
 Após finalizar os passos acima, clicar em Actions e selecionar o botão verde " I understand my workflows, go ahead and enable them"
 
