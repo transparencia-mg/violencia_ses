@@ -136,16 +136,6 @@ Clicando em `Fork`, é possível listar todos os repositórios que foram gerados
 
 ![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/55a59bac-d1b4-4383-ad0d-cb5dcfc5ac3d)
 
-### IMPORTANTE - Dos dados nos novos repositórios criados
-
-Para alterar qualquer arquivo referente aos dados publicados é **necessário estar dentro da pasta `dataset` para os aquivos: (README, CHANGELOG, CONTRIBUTING,DATAPACKEGE.yaml) ou dentro da pasta `upload` para os arquivos excel xlsx.** As modificações automáticas só serão publicadas no CKAN se as alterações forem realizadas nestas pastas. 
-
-**ATENÇÃO: NÃO ALTERAR/EDITAR DATAPACKEGE.json, apenas mexer no DATAPACKEGE.yaml.**
-
-**ATENÇÃO: NÃO ALTERAR/EDITAR os arquivos da raiz do template.**:
-
-![image](https://github.com/transparencia-mg/new-dataset-template/assets/52294411/3e0dd4fa-cd29-420e-b9b7-1b1c888802e5)
-
 #### Arquivo excel com mais de uma aba
 
 Abas: caso mais de uma aba em um arquivo excel necessite ser convertida para CSV, basta descomentar o código no arquivo `config.py` e incluir o nome do arquivo (com a correta extensão) e sua(s) respectiva(s) aba(s) para conversão.
