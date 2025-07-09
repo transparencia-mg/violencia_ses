@@ -85,7 +85,6 @@
       "title": "Violência contra Mulheres SES 2010"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -167,7 +166,6 @@
       "title": "Violência contra Mulheres SES 2011"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -246,10 +244,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2012"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -328,10 +325,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2013"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -410,10 +406,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2014"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -492,10 +487,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2015"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -574,10 +568,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2016"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -656,10 +649,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2017"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -738,10 +730,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2018"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -820,10 +811,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2019"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -902,10 +892,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2020"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -984,10 +973,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2021"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -1066,10 +1054,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2022"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -1148,10 +1135,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2023"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -1230,7 +1216,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Violência contra Mulheres SES 2024"
     }
   ],
   "title": "Violência contra a Mulher - SES"
