@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 19.58,
+  "time": 19.223,
   "errors": [],
   "tasks": [
     {
@@ -91,7 +91,7 @@
           "rows": 4485
         }
       },
-      "time": 0.229,
+      "time": 0.225,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -121,7 +121,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -208,7 +207,7 @@
           "rows": 10938
         }
       },
-      "time": 0.516,
+      "time": 0.504,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -238,7 +237,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -317,7 +315,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2012",
         "stats": {
           "hash": "05f691b3913f977374f35b78bdc17650",
           "bytes": 1665293,
@@ -325,7 +323,7 @@
           "rows": 15809
         }
       },
-      "time": 0.81,
+      "time": 0.777,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -355,7 +353,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -434,7 +431,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2013",
         "stats": {
           "hash": "673cc76a9bc41d37c73c0d303bc65e6b",
           "bytes": 2341114,
@@ -442,7 +439,7 @@
           "rows": 22114
         }
       },
-      "time": 1.117,
+      "time": 1.095,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -472,7 +469,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -551,7 +547,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2014",
         "stats": {
           "hash": "f42cabbc2f4bc10af817a89fbc58f0d5",
           "bytes": 3038502,
@@ -559,7 +555,7 @@
           "rows": 27027
         }
       },
-      "time": 1.348,
+      "time": 1.318,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -589,7 +585,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -668,7 +663,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2015",
         "stats": {
           "hash": "1bcffd00fe797d269a6c60dc3c9f3e68",
           "bytes": 4074618,
@@ -676,7 +671,7 @@
           "rows": 31376
         }
       },
-      "time": 1.562,
+      "time": 1.548,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -706,7 +701,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -785,7 +779,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2016",
         "stats": {
           "hash": "359226dcf3ed6c0f8360b3832734ac48",
           "bytes": 3902236,
@@ -793,7 +787,7 @@
           "rows": 29920
         }
       },
-      "time": 1.493,
+      "time": 1.469,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -823,7 +817,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -902,7 +895,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2017",
         "stats": {
           "hash": "9ea9c0a6a792c9c505f66871a3632333",
           "bytes": 4350115,
@@ -910,7 +903,7 @@
           "rows": 33326
         }
       },
-      "time": 1.67,
+      "time": 1.64,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -940,7 +933,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1019,7 +1011,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2018",
         "stats": {
           "hash": "c237cfebe119eacd7721df42620b67cd",
           "bytes": 4673433,
@@ -1027,7 +1019,7 @@
           "rows": 35758
         }
       },
-      "time": 1.778,
+      "time": 1.739,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1057,7 +1049,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1136,7 +1127,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2019",
         "stats": {
           "hash": "f93d1a32c05e9d1078d9fb06a5fed7a9",
           "bytes": 5044370,
@@ -1144,7 +1135,7 @@
           "rows": 38776
         }
       },
-      "time": 1.928,
+      "time": 1.891,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1174,7 +1165,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1253,7 +1243,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2020",
         "stats": {
           "hash": "78e3685c53a21ac54e591359a2c035e3",
           "bytes": 3770634,
@@ -1261,7 +1251,7 @@
           "rows": 29682
         }
       },
-      "time": 1.388,
+      "time": 1.343,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1291,7 +1281,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1370,7 +1359,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2021",
         "stats": {
           "hash": "4ce5ebcfc11700413b612566c77dbec4",
           "bytes": 3718000,
@@ -1378,7 +1367,7 @@
           "rows": 29020
         }
       },
-      "time": 1.466,
+      "time": 1.449,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1408,7 +1397,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1487,7 +1475,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2022",
         "stats": {
           "hash": "a3d6fb6a665723ccbff1914f41c806c3",
           "bytes": 4609191,
@@ -1495,7 +1483,7 @@
           "rows": 36629
         }
       },
-      "time": 1.689,
+      "time": 1.668,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1525,7 +1513,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1604,7 +1591,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2023",
         "stats": {
           "hash": "226329668731c15d366a4bbcbf553439",
           "bytes": 5567598,
@@ -1612,7 +1599,7 @@
           "rows": 43581
         }
       },
-      "time": 2.166,
+      "time": 2.15,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1642,7 +1629,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -1721,7 +1707,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2024",
         "stats": {
           "hash": "f22f3fe6f8e3371d48caea06035b0f7e",
           "bytes": 583358,
@@ -1729,7 +1715,7 @@
           "rows": 4590
         }
       },
-      "time": 0.249,
+      "time": 0.242,
       "scope": [
         "hash-count-error",
         "byte-count-error",
