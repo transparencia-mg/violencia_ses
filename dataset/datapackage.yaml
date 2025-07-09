@@ -2,7 +2,7 @@ name: violencia_ses
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Violência contra Mulheres SES 2010
     dialect:
       delimiter: ;
     encoding: utf-8-sig
