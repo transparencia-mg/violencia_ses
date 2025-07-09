@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "Violência contra Mulheres SES 2010",
       "dialect": {
         "delimiter": ";"
       },
@@ -1234,5 +1234,5 @@
       "title": "Insira um título humanamente legível para este recurso."
     }
   ],
-  "title": "Violencia_ses"
+  "title": "Violência contra a Mulher - SES"
 }
