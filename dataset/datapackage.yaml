@@ -46,8 +46,7 @@ resources:
           type: any
     scheme: file
     title: Violência contra Mulheres SES 2010
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -91,8 +90,7 @@ resources:
           type: any
     scheme: file
     title: Violência contra Mulheres SES 2011
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -135,9 +133,8 @@ resources:
         - name: ident_gen
           type: any
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2012
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -180,9 +177,8 @@ resources:
         - name: ident_gen
           type: any
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2013
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -225,9 +221,8 @@ resources:
         - name: ident_gen
           type: any
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2014
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -270,9 +265,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2015
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -315,9 +309,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2016
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -360,9 +353,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2017
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -405,9 +397,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2018
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -450,9 +441,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2019
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -495,9 +485,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2020
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -540,9 +529,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2021
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -585,9 +573,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2022
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -630,9 +617,8 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2023
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -675,5 +661,5 @@ resources:
         - name: ident_gen
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Violência contra Mulheres SES 2024
 title: Violência contra a Mulher - SES
