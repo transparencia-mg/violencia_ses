@@ -2,8 +2,7 @@ name: violencia_ses
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Violência contra Mulheres SES 2010
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -91,7 +90,7 @@ resources:
         - name: ident_gen
           type: any
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Violência contra Mulheres SES 2011
   - description: Insira a descrição/explicação detalhada deste recurso.
     dialect:
       delimiter: ;
