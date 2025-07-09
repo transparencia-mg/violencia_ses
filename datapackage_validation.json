@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 19.263,
+  "time": 19.58,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Violência contra Mulheres SES 2010",
         "dialect": {
           "delimiter": ";"
         },
@@ -92,7 +91,7 @@
           "rows": 4485
         }
       },
-      "time": 0.225,
+      "time": 0.229,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -201,7 +200,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Violência contra Mulheres SES 2011",
         "stats": {
           "hash": "d0616f5f4c7a2ca1f7b7613d4768d6a3",
           "bytes": 1128768,
@@ -209,7 +208,7 @@
           "rows": 10938
         }
       },
-      "time": 0.517,
+      "time": 0.516,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -326,7 +325,7 @@
           "rows": 15809
         }
       },
-      "time": 0.803,
+      "time": 0.81,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -443,7 +442,7 @@
           "rows": 22114
         }
       },
-      "time": 1.096,
+      "time": 1.117,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -560,7 +559,7 @@
           "rows": 27027
         }
       },
-      "time": 1.337,
+      "time": 1.348,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -677,7 +676,7 @@
           "rows": 31376
         }
       },
-      "time": 1.56,
+      "time": 1.562,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -794,7 +793,7 @@
           "rows": 29920
         }
       },
-      "time": 1.476,
+      "time": 1.493,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -911,7 +910,7 @@
           "rows": 33326
         }
       },
-      "time": 1.628,
+      "time": 1.67,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1028,7 +1027,7 @@
           "rows": 35758
         }
       },
-      "time": 1.755,
+      "time": 1.778,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1145,7 +1144,7 @@
           "rows": 38776
         }
       },
-      "time": 1.901,
+      "time": 1.928,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1262,7 +1261,7 @@
           "rows": 29682
         }
       },
-      "time": 1.35,
+      "time": 1.388,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1379,7 +1378,7 @@
           "rows": 29020
         }
       },
-      "time": 1.426,
+      "time": 1.466,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1496,7 +1495,7 @@
           "rows": 36629
         }
       },
-      "time": 1.667,
+      "time": 1.689,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1613,7 +1612,7 @@
           "rows": 43581
         }
       },
-      "time": 2.108,
+      "time": 2.166,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1730,7 +1729,7 @@
           "rows": 4590
         }
       },
-      "time": 0.244,
+      "time": 0.249,
       "scope": [
         "hash-count-error",
         "byte-count-error",
