@@ -1836,7 +1836,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-       - name: dt_notific
+        - name: dt_notific
           type: date
           title: Data de Notificação
           description: Data de preenchimento da ficha de notificação
@@ -1988,7 +1988,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-       - name: dt_notific
+        - name: dt_notific
           type: date
           title: Data de Notificação
           description: Data de preenchimento da ficha de notificação
@@ -2199,9 +2199,9 @@ resources:
           description: Violência é de repetição
           constraints: 
              enum:
-             - 'Sim'
-             - 'Não'
-             - 'Ignorado'
+              - 'Sim'
+              - 'Não'
+              - 'Ignorado'
         - name: les_autop
           type: string
           title: Lesão autoprovocada
@@ -2264,11 +2264,11 @@ resources:
           description: Orientação sexual da vítima de violência
           constraints: 
              enum:
-             - 'Heterossexual'
-             - 'Homossexual'
-             - 'Bissexual'
-             - 'Não se Aplica'
-             - 'Ignorado'
+              - 'Heterossexual'
+              - 'Homossexual'
+              - 'Bissexual'
+              - 'Não se Aplica'
+              - 'Ignorado'
         - name: ident_gen
           type: any
           title: Identidade de gênero
