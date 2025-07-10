@@ -620,7 +620,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-       - name: dt_notific
+        - name: dt_notific
           type: date
           title: Data de Notificação
           description: Data de preenchimento da ficha de notificação
