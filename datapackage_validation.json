@@ -1,0 +1,1884 @@
+{
+  "version": "4.16.6",
+  "time": 22.433,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2010",
+        "path": "data/dados_violencia_mulheres_ses_2010.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "integer"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "any"
+            },
+            {
+              "name": "ident_gen",
+              "type": "any"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "ce4c4dd26ef6b76d5aa6d0f6ac4f1adf",
+          "bytes": 465081,
+          "fields": 16,
+          "rows": 4485
+        }
+      },
+      "time": 0.222,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2011",
+        "path": "data/dados_violencia_mulheres_ses_2011.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "integer"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "any"
+            },
+            {
+              "name": "ident_gen",
+              "type": "any"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "d0616f5f4c7a2ca1f7b7613d4768d6a3",
+          "bytes": 1128768,
+          "fields": 16,
+          "rows": 10938
+        }
+      },
+      "time": 0.507,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2012",
+        "path": "data/dados_violencia_mulheres_ses_2012.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "any"
+            },
+            {
+              "name": "ident_gen",
+              "type": "any"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "05f691b3913f977374f35b78bdc17650",
+          "bytes": 1665293,
+          "fields": 16,
+          "rows": 15809
+        }
+      },
+      "time": 0.791,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2013",
+        "path": "data/dados_violencia_mulheres_ses_2013.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "any"
+            },
+            {
+              "name": "ident_gen",
+              "type": "any"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "673cc76a9bc41d37c73c0d303bc65e6b",
+          "bytes": 2341114,
+          "fields": 16,
+          "rows": 22114
+        }
+      },
+      "time": 1.115,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2014",
+        "path": "data/dados_violencia_mulheres_ses_2014.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "any"
+            },
+            {
+              "name": "ident_gen",
+              "type": "any"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "f42cabbc2f4bc10af817a89fbc58f0d5",
+          "bytes": 3038502,
+          "fields": 16,
+          "rows": 27027
+        }
+      },
+      "time": 1.348,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2015",
+        "path": "data/dados_violencia_mulheres_ses_2015.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "1bcffd00fe797d269a6c60dc3c9f3e68",
+          "bytes": 4074618,
+          "fields": 16,
+          "rows": 31376
+        }
+      },
+      "time": 1.57,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2016",
+        "path": "data/dados_violencia_mulheres_ses_2016.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "359226dcf3ed6c0f8360b3832734ac48",
+          "bytes": 3902236,
+          "fields": 16,
+          "rows": 29920
+        }
+      },
+      "time": 1.482,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2017",
+        "path": "data/dados_violencia_mulheres_ses_2017.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "9ea9c0a6a792c9c505f66871a3632333",
+          "bytes": 4350115,
+          "fields": 16,
+          "rows": 33326
+        }
+      },
+      "time": 1.628,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2018",
+        "path": "data/dados_violencia_mulheres_ses_2018.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "c237cfebe119eacd7721df42620b67cd",
+          "bytes": 4673433,
+          "fields": 16,
+          "rows": 35758
+        }
+      },
+      "time": 1.753,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2019",
+        "path": "data/dados_violencia_mulheres_ses_2019.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "f93d1a32c05e9d1078d9fb06a5fed7a9",
+          "bytes": 5044370,
+          "fields": 16,
+          "rows": 38776
+        }
+      },
+      "time": 1.914,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2020",
+        "path": "data/dados_violencia_mulheres_ses_2020.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "integer"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "78e3685c53a21ac54e591359a2c035e3",
+          "bytes": 3770634,
+          "fields": 16,
+          "rows": 29682
+        }
+      },
+      "time": 1.36,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2021",
+        "path": "data/dados_violencia_mulheres_ses_2021.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "4ce5ebcfc11700413b612566c77dbec4",
+          "bytes": 3718000,
+          "fields": 16,
+          "rows": 29020
+        }
+      },
+      "time": 1.424,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2022",
+        "path": "data/dados_violencia_mulheres_ses_2022.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "integer"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "a3d6fb6a665723ccbff1914f41c806c3",
+          "bytes": 4609191,
+          "fields": 16,
+          "rows": 36629
+        }
+      },
+      "time": 1.665,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2023",
+        "path": "data/dados_violencia_mulheres_ses_2023.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "226329668731c15d366a4bbcbf553439",
+          "bytes": 5567598,
+          "fields": 16,
+          "rows": 43581
+        }
+      },
+      "time": 2.218,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2024",
+        "path": "data/dados_violencia_mulheres_ses_2024.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "geopoint"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "ac48b596afc0d5e3e54102a55d6263f8",
+          "bytes": 5604830,
+          "fields": 16,
+          "rows": 43556
+        }
+      },
+      "time": 2.186,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_violencia_mulheres_ses_2025",
+        "path": "data/dados_violencia_mulheres_ses_2025.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_notific",
+              "type": "date"
+            },
+            {
+              "name": "dt_nasc",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade_n",
+              "type": "integer"
+            },
+            {
+              "name": "cs_sexo",
+              "type": "string"
+            },
+            {
+              "name": "cs_raca",
+              "type": "string"
+            },
+            {
+              "name": "id_mn_resi",
+              "type": "string"
+            },
+            {
+              "name": "local_ocor",
+              "type": "string"
+            },
+            {
+              "name": "out_vezes",
+              "type": "string"
+            },
+            {
+              "name": "les_autop",
+              "type": "string"
+            },
+            {
+              "name": "viol_fisic",
+              "type": "string"
+            },
+            {
+              "name": "viol_psico",
+              "type": "string"
+            },
+            {
+              "name": "viol_sexu",
+              "type": "string"
+            },
+            {
+              "name": "num_envolv",
+              "type": "string"
+            },
+            {
+              "name": "autor_sexo",
+              "type": "string"
+            },
+            {
+              "name": "orient_sex",
+              "type": "string"
+            },
+            {
+              "name": "ident_gen",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "419f10ea940421db6d6df73e5fddf927",
+          "bytes": 2894657,
+          "fields": 16,
+          "rows": 23016
+        }
+      },
+      "time": 1.07,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 16
+  },
+  "valid": true
+}
