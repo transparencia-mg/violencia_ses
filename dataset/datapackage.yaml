@@ -2,8 +2,7 @@ name: violencia_ses
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -15,40 +14,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
           type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
           type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2010
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -60,40 +166,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
           type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
           type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2011
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -105,40 +318,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
           type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
           type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2012
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -150,40 +470,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
           type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
           type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2013
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -195,40 +622,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
           type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
           type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2014
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -240,40 +774,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2015
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -285,40 +926,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2016
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -330,40 +1078,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2017
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -375,40 +1230,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2018
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -420,40 +1382,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2019
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -465,40 +1534,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2020
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -510,40 +1686,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2021
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -555,40 +1838,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2022
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -600,40 +1990,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+             - 'Heterossexual'
+             - 'Homossexual'
+             - 'Bissexual'
+             - 'Não se Aplica'
+             - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2023
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -645,40 +2142,147 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
-          type: geopoint
+          type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+              - 'Sim'
+              - 'Não'
+              - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+              - 'Heterossexual'
+              - 'Homossexual'
+              - 'Bissexual'
+              - 'Não se Aplica'
+              - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Violência contra Mulheres SES 2024
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -690,36 +2294,144 @@ resources:
       fields:
         - name: dt_notific
           type: date
+          title: Data de Notificação
+          description: Data de preenchimento da ficha de notificação
         - name: dt_nasc
           type: date
+          title: Data de Nascimento
+          description: Data de nascimento da vítima de violência
         - name: nu_idade_n
           type: integer
+          title: Idade
+          description: Idade da vítima de violência
         - name: cs_sexo
           type: string
+          title: Sexo
+          description: Sexo
+          constraints:
+             enum:
+               - 'Feminino'
+               - 'Masculino'
+               - 'Ignorado'
         - name: cs_raca
           type: string
+          title: Raça/Cor
+          description: Raça/Cor
+          constraints: 
+             enum:
+               - 'Branca'
+               - 'Preta'
+               - 'Amarela'
+               - 'Parda'
+               - 'Indígena'
+               - 'Ignorado'
         - name: id_mn_resi
           type: string
+          title: Cidade de residência
+          description: Cidade de residência da vítima de violência
         - name: local_ocor
           type: string
+          title: Local de ocorrência
+          description: Local de ocorrência do evento notificado
+          constraints: 
+             enum:
+             - 'Residencia'
+             - 'Habitação coletiva'
+             - 'Escola'
+             - 'Local de pratica esportiva'
+             - 'Bar ou similar'
+             - 'Via pública'
+             - 'Comercio/Serviços'
+             - 'Industria/Construção'
+             - 'Outro'
+             - 'Ignorado'
         - name: out_vezes
           type: string
+          title: Aconteceu outras vezes?
+          description: Violência é de repetição
+          constraints: 
+             enum:
+              - 'Sim'
+              - 'Não'
+              - 'Ignorado'
         - name: les_autop
           type: string
+          title: Lesão autoprovocada
+          description: Tipo de violência- lesão autoprovocada
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
+             - 'Não se aplica'
         - name: viol_fisic
           type: string
+          title: Violência Física
+          description: Tipo de violência- física
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_psico
           type: string
+          title: Violencia Psicológica
+          description: Tipo de violência- psicológica/moral
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: viol_sexu
           type: string
+          title: Violencia Sexual
+          description: Tipo de violência - sexual
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: num_envolv
           type: string
+          title: Número de envolvidos
+          description: Número de envolvidos na situação de violência
+          constraints: 
+             enum:
+             - 'Sim'
+             - 'Não'
+             - 'Ignorado'
         - name: autor_sexo
           type: string
+          title: Sexo do autor
+          description: Sexo do provável autor da agressão
+          constraints: 
+             enum:
+             - 'Masculino'
+             - 'Feminino'
+             - 'Ambos os sexos'
+             - 'Ignorado'
         - name: orient_sex
-          type: string
+          type: any
+          title: Orientação sexual
+          description: Orientação sexual da vítima de violência
+          constraints: 
+             enum:
+              - 'Heterossexual'
+              - 'Homossexual'
+              - 'Bissexual'
+              - 'Não se Aplica'
+              - 'Ignorado'
         - name: ident_gen
-          type: string
+          type: any
+          title: Identidade de gênero
+          description: Identidade de gênero da vítima de violência
+          constraints: 
+             enum:
+             - 'Travesti'
+             - 'Transsexual Mulher'
+             - 'Transsexual Homem'
+             - 'Não se Aplica'
+             - 'Ignorado'
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Violencia_ses
+    title: Violência contra Mulheres SES 2025
+title: Violência contra Mulheres - SES
