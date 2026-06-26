@@ -642,7 +642,6 @@
 2025-01-12;1987-10-14;37,0;Feminino;Parda;Nepomuceno;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-01-08;1969-11-17;55,0;Feminino;Branca;São Lourenço;Outro;Sim;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
 2025-01-10;2003-06-27;21,0;Feminino;Parda;Passa Quatro;Comercio/Serviços;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
-2025-01-02;1990-03-20;34,0;Feminino;Preta;Campanha;Residencia;Ignorado;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-01-11;1997-08-12;27,0;Feminino;Parda;São Lourenço;Via pública;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-01-12;1994-07-12;30,0;Feminino;Branca;São Lourenço;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Bissexual;Não se aplica
 2025-01-09;1992-09-08;32,0;Feminino;Branca;São Lourenço;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -650,6 +649,7 @@
 2025-01-06;1979-07-21;45,0;Feminino;Branca;Lavras;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-01-07;1998-04-05;26,0;Feminino;Branca;Lavras;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-01-06;2004-08-20;20,0;Feminino;Parda;Lavras;Via pública;Não;Ignorado;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
+2025-01-02;1990-03-20;34,0;Feminino;Preta;Campanha;Residencia;Não;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-01-07;2001-11-11;23,0;Feminino;Parda;Lavras;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-01-07;2001-03-26;23,0;Feminino;Preta;Lavras;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-01-11;1974-11-12;50,0;Feminino;Branca;Cristina;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -1494,12 +1494,12 @@
 2025-01-19;1993-06-18;31,0;Feminino;Preta;Carangola;Via pública;Ignorado;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-01-18;2002-06-28;22,0;Feminino;Parda;Pedra Dourada;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-01-19;1993-03-31;31,0;Feminino;Parda;Chalé;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
-2025-01-13;2018-10-16;6,0;Feminino;Parda;Pocrane;;;;;;;;;;
 2025-01-01;1998-08-21;26,0;Feminino;Ignorado;Simonésia;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-01-17;1999-01-14;26,0;Feminino;Branca;Caputira;Residencia;Não;Sim;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-01-17;1986-05-14;38,0;Feminino;Parda;Caputira;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-01-01;2003-01-18;21,0;Feminino;Branca;Pocrane;Residencia;Sim;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-01-13;1975-07-23;49,0;Feminino;Parda;Alto Caparaó;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-01-13;2018-10-16;6,0;Feminino;Parda;Pocrane;Outro;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Não se aplica;Não se aplica
 2025-01-12;2000-03-05;24,0;Feminino;Ignorado;Simonésia;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-01-15;1992-01-24;32,0;Feminino;Parda;Pedra Bonita;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-01-13;2002-08-22;22,0;Feminino;Parda;Manhumirim;Residencia;Sim;Sim;Não;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -2389,7 +2389,6 @@
 2025-01-24;2019-04-26;5,0;Feminino;Parda;Pompéu;Outro;Ignorado;Ignorado;Sim;Sim;Sim;Ignorado;Ignorado;Não se aplica;Não se aplica
 2025-01-29;1990-08-04;34,0;Feminino;Parda;Pompéu;Outro;Ignorado;Ignorado;Não;Não;Não;;Feminino;Ignorado;Ignorado
 2025-02-02;2023-04-11;1,0;Feminino;Preta;Caetanópolis;Residencia;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Não se aplica;Não se aplica
-2025-01-28;2014-06-20;10,0;Feminino;Parda;Pequi;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Não se aplica;Não se aplica
 2025-01-28;2015-08-11;9,0;Feminino;Parda;Pequi;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Ambos os sexos;Não se aplica;Não se aplica
 2025-01-28;2010-03-07;14,0;Feminino;Parda;Abaeté;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-01-25;1999-04-05;25,0;Feminino;Preta;Sete Lagoas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -3732,7 +3731,6 @@
 2025-02-12;2010-12-03;13,0;Feminino;Parda;Paraopeba;Residencia;Sim;Sim;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-02-16;1989-09-30;35,0;Feminino;Parda;Paraopeba;;;;;;;;;;
 2025-02-10;1983-09-03;41,0;Feminino;Branca;Sete Lagoas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-02-15;1976-06-12;48,0;Feminino;Parda;Maravilhas;Bar ou similar;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Não se aplica;Não se aplica
 2025-02-17;1989-10-20;35,0;Feminino;Parda;Cordisburgo;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-02-10;1989-12-08;35,0;Feminino;Parda;Sete Lagoas;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Transsexual Mulher
 2025-02-16;1995-02-15;30,0;Feminino;Parda;Abaeté;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -10294,6 +10292,7 @@
 2025-02-21;2001-04-14;23,0;Feminino;Parda;Almenara;Residencia;Ignorado;Sim;Ignorado;Ignorado;Ignorado;Um;Masculino;Heterossexual;Não se aplica
 2025-03-31;2010-02-25;15,0;Feminino;Parda;Almenara;Residencia;Não;Sim;Não;Não;Não;Um;Masculino;Ignorado;Ignorado
 2025-03-26;2007-05-24;17,0;Feminino;Ignorado;Almenara;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-03-06;;36,0;Feminino;Ignorado;Joaíma;Ignorado;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-02-06;1957-03-04;67,0;Feminino;Preta;Almenara;Residencia;Não;Não;Sim;Não;Não;Um;Feminino;Homossexual;Não se aplica
 2025-01-12;2006-10-12;18,0;Feminino;Ignorado;Mata Verde;Bar ou similar;Ignorado;Não;Sim;Não;Não;Ignorado;Ignorado;Heterossexual;Não se aplica
 2025-01-11;1977-12-14;47,0;Feminino;Ignorado;Almenara;Bar ou similar;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -11163,8 +11162,7 @@
 2025-03-13;1980-10-30;44,0;Feminino;Parda;Santa Juliana;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-04-05;1952-06-12;72,0;Feminino;Parda;Montes Claros;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Ignorado
 2025-04-05;2004-10-15;20,0;Feminino;Parda;Montes Claros;Ignorado;;;Sim;Não;Não;Um;Ignorado;Heterossexual;Ignorado
-2025-03-22;1991-11-28;33,0;Feminino;Parda;Espinosa;Bar ou similar;Sim;Sim;Sim;Sim;Não;Um;Masculino;Heterossexual;Ignorado
-2025-02-21;1995-05-11;29,0;Feminino;Parda;Espinosa;Residencia;Ignorado;Sim;Sim;Sim;Não;Um;Masculino;Heterossexual;Ignorado
+2025-03-22;1991-11-28;33,0;Feminino;Parda;Espinosa;Bar ou similar;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Ignorado
 2025-04-11;1997-12-30;27,0;Feminino;Parda;Capitão Enéas;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-04-11;2005-02-02;20,0;Feminino;Branca;Jaíba;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-04-14;2010-10-25;14,0;Feminino;Branca;Mirabela;Residencia;Sim;Sim;Sim;Não;Não;Um;Ignorado;Ignorado;Ignorado
@@ -13610,7 +13608,6 @@
 2025-05-04;1998-12-04;26,0;Feminino;Parda;Nova Ponte;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-04-26;1979-12-11;45,0;Feminino;Branca;Uberlândia;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-04-18;1984-09-14;40,0;Feminino;Branca;Uberlândia;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
-2025-05-04;1988-06-17;36,0;Feminino;Branca;Patrocínio;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-04-28;2006-06-09;18,0;Feminino;Parda;Uberlândia;Via pública;Sim;Sim;Sim;Não;Não;Um;Feminino;Homossexual;Não se aplica
 2025-04-28;2011-05-03;13,0;Feminino;Branca;Uberlândia;Residencia;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-04-28;2021-02-12;4,0;Feminino;Branca;Uberlândia;Ignorado;Ignorado;Não;Não;Não;Sim;Dois ou mais;Ignorado;Não se aplica;Não se aplica
@@ -14701,7 +14698,6 @@
 2025-05-13;2006-11-07;18,0;Feminino;Parda;Mariana;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
 2025-02-04;1995-05-01;29,0;Feminino;Branca;Brumadinho;Ignorado;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-03-28;1993-10-14;31,0;Feminino;Parda;Ribeirão das Neves;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-03-25;1997-12-02;27,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-04-13;1999-11-22;25,0;Feminino;Branca;Ribeirão das Neves;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-04-17;1992-09-28;32,0;Feminino;Parda;Vespasiano;Ignorado;Ignorado;Não;Sim;Não;Não;Ignorado;Ignorado;Ignorado;Não se aplica
 2025-04-24;1998-08-16;26,0;Feminino;Branca;Belo Horizonte;Residencia;Não;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Ignorado
@@ -15876,7 +15872,7 @@
 2025-04-30;1985-02-02;40,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-05-04;1994-09-19;30,0;Feminino;Parda;Guidoval;Residencia;Ignorado;Não;Sim;Não;Não;Um;Feminino;Homossexual;Ignorado
 2025-04-02;1993-12-18;31,0;Feminino;Branca;Contagem;Residencia;Sim;Não;Não;Não;Não;Um;Masculino;Ignorado;Ignorado
-2025-04-07;1993-11-13;31,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Não;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-04-07;1993-11-13;31,0;Feminino;Branca;Contagem;Residencia;Sim;Não;Não;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-04-07;1987-01-06;38,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-04-08;1975-08-04;49,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-04-29;2012-08-30;12,0;Feminino;Preta;Contagem;Residencia;Ignorado;Não;Não;Não;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -17411,7 +17407,6 @@
 2025-05-28;2022-11-27;2,0;Feminino;Parda;São Gotardo;Escola;Ignorado;Ignorado;Não;Não;Sim;Ignorado;Ignorado;Não se aplica;Não se aplica
 2025-05-20;2007-02-21;18,0;Feminino;Branca;São Gotardo;Residencia;Não;Não;Não;Sim;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-05-25;1994-07-25;30,0;Feminino;Ignorado;Cruzeiro da Fortaleza;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-05-20;1975-10-08;49,0;Feminino;Parda;Patos de Minas;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-06-02;2005-09-11;19,0;Feminino;Parda;Coronel Fabriciano;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-05-27;2008-07-10;16,0;Feminino;Parda;Timóteo;Ignorado;Não;Sim;Sim;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-06-04;1991-06-16;33,0;Feminino;Branca;Timóteo;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
@@ -19925,7 +19920,6 @@
 2025-06-23;1981-11-08;43,0;Feminino;Parda;Lontra;Via pública;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-06-26;1982-04-18;43,0;Feminino;Branca;Manga;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
 2025-06-25;2001-06-06;24,0;Feminino;Parda;Ubaí;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
-2025-06-25;2011-08-29;13,0;Feminino;Branca;Mercês;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-11-30;2006-04-07;19,0;Feminino;Preta;Visconde do Rio Branco;Via pública;Ignorado;Ignorado;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
 2025-06-25;1981-08-13;43,0;Feminino;Parda;Salinas;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-06-12;1986-10-13;38,0;Feminino;Parda;Janaúba;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -34074,7 +34068,6 @@
 2025-09-25;2016-06-22;9,0;Feminino;Parda;Prudente de Morais;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Não se aplica;Não se aplica
 2025-09-26;2006-07-03;19,0;Feminino;Branca;Caetanópolis;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Ignorado
 2025-09-22;2006-07-03;19,0;Feminino;Branca;Caetanópolis;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
-2025-09-20;1981-02-14;44,0;Feminino;Parda;Pequi;Residencia;Não;Não;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-09-29;1990-04-20;35,0;Feminino;Parda;Pequi;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Ignorado
 2025-09-27;2008-04-01;17,0;Feminino;Preta;Paraopeba;Via pública;Não;Não;Sim;Não;Não;Dois ou mais;Ambos os sexos;Heterossexual;Não se aplica
 2025-09-27;2014-12-18;10,0;Feminino;Branca;Paraopeba;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -34250,7 +34243,7 @@
 2025-09-22;1990-01-18;35,0;Feminino;Branca;São Lourenço;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-09-21;2006-01-30;19,0;Feminino;Amarela;Três Corações;Via pública;Ignorado;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-09-25;1998-11-22;26,0;Feminino;Parda;Três Corações;Residencia;Sim;Sim;Sim;Não;Não;Ignorado;Feminino;Heterossexual;Não se aplica
-2025-09-19;2012-03-13;13,0;Feminino;Parda;Campanha;Outro;Não;Não;Não;Não;Sim;Um;Masculino;Ignorado;Ignorado
+2025-09-19;2012-03-13;13,0;Feminino;Parda;Campanha;Outro;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-09-01;2011-03-01;14,0;Feminino;Parda;Capelinha;Via pública;Sim;Não;Não;Não;Sim;Dois ou mais;Masculino;Não se aplica;Não se aplica
 2025-09-07;2006-11-27;18,0;Feminino;Parda;Serro;Ignorado;Ignorado;Não;Sim;Não;Não;;Masculino;Heterossexual;Ignorado
 2025-09-28;2003-05-27;22,0;Feminino;Parda;Serro;Residencia;Ignorado;Sim;Ignorado;Ignorado;Ignorado;Um;Feminino;Ignorado;Ignorado
@@ -38477,8 +38470,6 @@
 2025-10-24;2006-07-26;19,0;Feminino;Preta;Aricanduva;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Ignorado
 2025-10-29;1985-05-23;40,0;Feminino;Parda;Datas;Ignorado;Ignorado;Ignorado;Sim;Não;Não;Um;Feminino;Heterossexual;Ignorado
 2025-10-06;1997-01-22;28,0;Feminino;Parda;Capelinha;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
-2025-10-27;1955-03-04;70,0;Feminino;Parda;Capelinha;;;;;;;;;;
-2025-10-30;1995-11-06;29,0;Feminino;Parda;Capelinha;;;;;;;;;;
 2025-10-31;2000-08-03;25,0;Feminino;Branca;Diamantina;Residencia;Ignorado;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-10-31;1978-02-24;47,0;Feminino;Parda;Capelinha;;;;;;;;;;
 2025-11-01;1999-12-29;25,0;Feminino;Parda;Gouvêa;Residencia;Sim;Sim;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -38488,6 +38479,8 @@
 2025-10-29;1999-11-07;25,0;Feminino;Parda;Capelinha;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Não se aplica;Não se aplica
 2025-11-03;1994-03-31;31,0;Feminino;Parda;Capelinha;Bar ou similar;Não;Não;Não;Não;Não;Dois ou mais;Feminino;Não se aplica;Não se aplica
 2025-11-03;1997-12-23;27,0;Feminino;Parda;Capelinha;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
+2025-10-30;1995-11-06;29,0;Feminino;Parda;Capelinha;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
+2025-10-27;1955-03-04;70,0;Feminino;Parda;Capelinha;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
 2025-10-31;2005-06-06;20,0;Feminino;Preta;Conceição do Mato Dentro;Ignorado;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-10-31;1996-03-24;29,0;Feminino;Ignorado;Conceição do Mato Dentro;Ignorado;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-03;1996-05-25;29,0;Feminino;Parda;Angelândia;Via pública;Sim;Sim;Não;Não;Não;Um;Masculino;Não se aplica;Não se aplica
@@ -42129,10 +42122,10 @@
 2025-09-12;1949-11-23;75,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Ignorado;Não;Não;Não;Um;Ignorado;Ignorado;Não se aplica
 2025-11-03;2003-09-15;22,0;Feminino;Branca;Santa Luzia;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-05;2002-12-28;22,0;Feminino;Parda;Contagem;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Ignorado;Não se aplica
-2025-09-07;1983-12-16;41,0;Feminino;Preta;Ribeirão das Neves;Ignorado;Não;Não;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-10-19;2007-05-06;18,0;Feminino;Preta;Belo Horizonte;Residencia;Sim;Não;Sim;Sim;Não;Ignorado;Masculino;Heterossexual;Ignorado
 2025-11-22;1947-12-16;74,0;Feminino;Parda;Vespasiano;Escola;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-10-22;1998-04-02;27,0;Feminino;Parda;Curvelo;Residencia;Ignorado;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
+2025-09-07;1983-12-16;41,0;Feminino;Preta;Ribeirão das Neves;Ignorado;Não;Não;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-08-25;1937-06-05;88,0;Feminino;Branca;Belo Horizonte;Residencia;Sim;Não;Não;Sim;Não;Dois ou mais;Ambos os sexos;Ignorado;Ignorado
 2025-11-11;1949-08-25;76,0;Feminino;Parda;Belo Horizonte;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-25;2001-08-03;24,0;Feminino;Parda;Piedade de Caratinga;Residencia;Não;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -42444,12 +42437,10 @@
 2025-09-16;2010-09-19;14,0;Feminino;Branca;Pará de Minas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-27;1994-05-22;31,0;Feminino;Branca;Cláudio;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-28;2014-02-17;11,0;Feminino;Branca;Formiga;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
-2025-07-20;2009-10-18;15,0;Feminino;Parda;São José da Varginha;Residencia;Sim;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-11-01;1980-01-31;45,0;Feminino;Parda;Luz;Residencia;Não;Não;Não;Não;Sim;Um;Feminino;Homossexual;Transsexual Mulher
 2025-11-23;2013-08-26;12,0;Feminino;Parda;Bom Despacho;;;;;;;;;;
 2025-11-23;2011-12-06;13,0;Feminino;Parda;Formiga;Residencia;Não;Sim;Não;Não;Não;;Feminino;Ignorado;Ignorado
 2025-11-28;1983-05-03;42,0;Feminino;Branca;Pitangui;Residencia;Sim;Ignorado;Sim;Sim;Não;Um;Masculino;Ignorado;Ignorado
-2025-09-12;2000-11-09;24,0;Feminino;Parda;Igaratinga;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-01;1995-01-15;30,0;Feminino;Parda;São Sebastião do Oeste;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-14;2010-09-04;15,0;Feminino;Parda;Formiga;Residencia;Não;Não;Não;Sim;Sim;Um;Masculino;Ignorado;Ignorado
 2025-11-25;1981-01-04;44,0;Feminino;Parda;Pitangui;Residencia;Sim;Não;Sim;Não;Não;Um;Feminino;Heterossexual;Ignorado
@@ -42992,7 +42983,7 @@
 2025-11-17;1996-02-07;29,0;Feminino;Parda;Belo Horizonte;Outro;Ignorado;Não;Sim;;;Um;Masculino;Heterossexual;Ignorado
 2025-11-15;2012-12-04;12,0;Feminino;Parda;Sabará;Outro;Sim;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-11-21;2015-01-11;10,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Não;Sim;Não;Não;Um;Feminino;Não se aplica;Não se aplica
-2025-11-24;1984-06-18;41,0;Feminino;Parda;Belo Horizonte;Via pública;Não;Não;;;Sim;Um;Masculino;Heterossexual;Ignorado
+2025-11-24;1984-06-18;41,0;Feminino;Parda;Belo Horizonte;Via pública;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Ignorado
 2025-10-07;2006-03-11;19,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-04;1932-11-06;92,0;Feminino;Branca;Belo Horizonte;Residencia;Ignorado;Não;Não;Não;Não;Dois ou mais;Feminino;Ignorado;Ignorado
 2025-11-24;2011-02-17;14,0;Feminino;Parda;Belo Horizonte;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -44182,7 +44173,6 @@
 2025-10-05;1980-12-27;44,0;Feminino;Branca;Pará de Minas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-10-05;1974-10-11;50,0;Feminino;Parda;Pará de Minas;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-10-04;1997-08-04;28,0;Feminino;Branca;Pará de Minas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-10-11;1970-08-11;55,0;Feminino;Branca;São José da Varginha;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-04;2008-10-14;17,0;Feminino;Parda;Oliveira;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-04;1983-06-15;42,0;Feminino;Branca;Perdigão;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Homossexual;Ignorado
 2025-11-27;1994-05-02;31,0;Feminino;Parda;Lagoa da Prata;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -44312,7 +44302,6 @@
 2025-12-12;1986-05-09;39,0;Feminino;Parda;Morada Nova de Minas;Outro;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-06;1970-02-04;55,0;Feminino;Branca;Capim Branco;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Homossexual;Não se aplica
 2025-12-09;2005-06-26;20,0;Feminino;Parda;Capim Branco;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-12-13;2007-10-31;18,0;Feminino;Parda;Pequi;Via pública;Não;Não;Sim;Sim;Não;Dois ou mais;Masculino;Não se aplica;Não se aplica
 2025-11-25;1980-02-12;45,0;Feminino;Parda;Pompéu;Outro;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;;Ignorado;Ignorado;Ignorado
 2025-11-20;2006-02-16;19,0;Feminino;Parda;Pompéu;Outro;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado
 2025-11-27;2003-12-27;21,0;Feminino;Parda;Pompéu;Outro;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado;Ignorado
@@ -44783,11 +44772,11 @@
 2025-11-28;1986-07-04;39,0;Feminino;Parda;Pirapora;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-11;1995-05-11;30,0;Feminino;Parda;Pirapora;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-07-21;2003-05-30;22,0;Feminino;Parda;Barão de Monte Alto;Residencia;Não;Não;Sim;Sim;Não;;Feminino;Heterossexual;Ignorado
-2025-12-10;2002-05-06;23,0;Feminino;Parda;Miradouro;Residencia;Não;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
-2025-12-14;1973-12-18;51,0;Feminino;Parda;Miradouro;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-11-29;2005-07-29;20,0;Feminino;Branca;Piraúba;Residencia;Não;Sim;Ignorado;Ignorado;Ignorado;Um;Feminino;Heterossexual;Não se aplica
 2025-12-05;1984-07-01;41,0;Feminino;Branca;Guarani;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-01;1992-01-02;33,0;Feminino;Branca;Guarani;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
+2025-12-10;2002-05-06;23,0;Feminino;Parda;Miradouro;Residencia;Não;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
+2025-12-14;1973-12-18;51,0;Feminino;Parda;São Francisco do Glória;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-12-04;1993-09-23;32,0;Feminino;Preta;Ubá;Via pública;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-02;1990-02-05;35,0;Feminino;Parda;Ubá;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-02;1997-02-15;28,0;Feminino;Branca;Ubá;Residencia;Sim;Sim;Não;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -45751,7 +45740,7 @@
 2025-12-06;1987-10-27;38,0;Feminino;Parda;Contagem;Ignorado;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-07;2020-12-27;4,0;Feminino;Branca;Contagem;Escola;Não;Não;Não;Não;Sim;Um;Feminino;Não se aplica;Não se aplica
 2025-10-26;1975-05-25;50,0;Feminino;Parda;Contagem;Residencia;Ignorado;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
-2025-12-06;1979-12-18;45,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-12-06;1979-12-18;45,0;Feminino;Branca;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-12-05;1982-07-19;43,0;Feminino;Preta;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-04;1992-03-09;33,0;Feminino;Parda;Contagem;Residencia;Ignorado;Não;Sim;Sim;Não;Um;Masculino;Ignorado;Ignorado
 2025-12-01;1994-01-14;31,0;Feminino;Parda;Contagem;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
@@ -45799,7 +45788,7 @@
 2025-12-20;1951-02-12;74,0;Feminino;Branca;Uberlândia;Outro;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-12-20;2015-02-21;6,0;Feminino;Branca;Uberlândia;Residencia;Sim;Não;Não;Não;Sim;Dois ou mais;Masculino;Não se aplica;Não se aplica
 2025-12-19;2010-09-10;15,0;Feminino;Parda;Uberlândia;Outro;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
-2025-12-12;1989-07-10;35,0;Feminino;Parda;Itajubá;Residencia;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
+2025-12-12;1989-07-10;35,0;Feminino;Parda;Itajubá;Bar ou similar;Não;Não;Não;Não;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-12-16;2015-05-07;9,0;Feminino;Parda;Uberlândia;Residencia;Sim;Não;Não;Não;Sim;Dois ou mais;Masculino;Não se aplica;Não se aplica
 2025-12-18;1999-02-03;26,0;Feminino;Branca;Uberlândia;Ignorado;Ignorado;Não;Não;Não;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-12-08;1969-07-05;56,0;Feminino;Branca;Uberlândia;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -45948,7 +45937,7 @@
 2025-11-19;2011-06-29;14,0;Feminino;Parda;Ribeirão das Neves;Escola;Ignorado;Não;Sim;Ignorado;Ignorado;Dois ou mais;Ignorado;Heterossexual;Não se aplica
 2025-12-17;1988-01-11;37,0;Feminino;Parda;Lagoa Santa;Comercio/Serviços;Não;Não;Sim;Sim;Sim;Um;Masculino;Ignorado;Não se aplica
 2025-12-16;2001-06-06;24,0;Feminino;Parda;Contagem;Via pública;Ignorado;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
-2025-12-13;1998-03-08;27,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Não;Não;Sim;Um;Masculino;Ignorado;Ignorado
+2025-12-13;1998-03-08;27,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-12-17;1966-04-19;59,0;Feminino;Parda;Contagem;Ignorado;Não;Não;Sim;Não;Não;Um;Ignorado;Ignorado;Ignorado
 2025-11-23;2014-10-03;11,0;Feminino;Preta;Ibirité;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Não se aplica;Não se aplica
 2025-11-24;1998-11-29;26,0;Feminino;Branca;Ibirité;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -47033,7 +47022,6 @@
 2025-11-21;1999-08-27;26,0;Feminino;Branca;Pará de Minas;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-11-22;2009-06-24;16,0;Feminino;Parda;Pará de Minas;Via pública;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-11-23;1979-01-21;46,0;Feminino;Parda;Pará de Minas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-11-24;2006-08-23;19,0;Feminino;Branca;Igaratinga;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-29;1995-03-13;30,0;Feminino;Branca;Formiga;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-01-03;1998-09-17;26,0;Feminino;Branca;Formiga;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-14;2002-11-12;23,0;Feminino;Preta;Arcos;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
@@ -47353,7 +47341,6 @@
 2025-12-02;1968-10-02;57,0;Feminino;Parda;Uberaba;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
 2025-12-11;2012-06-21;13,0;Feminino;Ignorado;Uberaba;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-10-20;1978-02-22;47,0;Feminino;Branca;Uberaba;Ignorado;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
-2025-12-06;2008-06-23;17,0;Feminino;Parda;Itajubá;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
 2025-12-15;1982-08-14;43,0;Feminino;Parda;;Ignorado;Ignorado;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
 2025-11-25;2010-06-10;15,0;Feminino;Parda;Uberaba;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
 2025-11-05;1990-09-16;35,0;Feminino;Preta;Uberaba;Ignorado;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
@@ -47578,7 +47565,6 @@
 2025-06-16;2003-10-04;21,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
 2025-05-06;1983-05-08;41,0;Feminino;Parda;Matozinhos;Outro;Ignorado;Ignorado;Sim;Não;Não;Ignorado;Ignorado;Ignorado;Ignorado
 2025-11-13;1992-12-10;32,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Sim;Não;Um;Feminino;Ignorado;Ignorado
-2025-11-23;1993-08-18;32,0;Feminino;Branca;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Ignorado;Ignorado;Um;Feminino;Heterossexual;Ignorado
 2025-12-10;2007-05-22;18,0;Feminino;Parda;Ibirité;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-10;1991-02-15;34,0;Feminino;Branca;Belo Horizonte;Escola;Sim;Não;Sim;Não;Sim;Um;Masculino;Heterossexual;Ignorado
 2025-12-05;1999-03-09;26,0;Feminino;Parda;Ibirité;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -47588,6 +47574,7 @@
 2025-12-04;1986-04-21;39,0;Feminino;Parda;Ibirité;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-11-23;2008-12-18;16,0;Feminino;Branca;Ribeirão das Neves;Residencia;Não;Sim;Sim;Ignorado;Ignorado;Um;Feminino;Heterossexual;Ignorado
 2025-11-23;1974-02-18;51,0;Feminino;Preta;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Ignorado;Ignorado;Um;Feminino;Heterossexual;Não se aplica
+2025-11-23;1993-08-18;32,0;Feminino;Branca;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Ignorado;Ignorado;Um;Feminino;Heterossexual;Ignorado
 2025-12-09;1991-04-30;34,0;Feminino;Parda;Belo Horizonte;Bar ou similar;Ignorado;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-11;2021-11-06;4,0;Feminino;Branca;Ibirité;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Não se aplica;Não se aplica
 2025-12-09;1996-05-28;29,0;Feminino;Parda;Ibirité;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Ignorado
@@ -47867,7 +47854,7 @@
 2025-12-23;1986-12-14;39,0;Feminino;Parda;Visconde do Rio Branco;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-28;2001-05-09;24,0;Feminino;Parda;Guiricema;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-16;1989-06-26;36,0;Feminino;Preta;Coimbra;Residencia;Sim;Não;Sim;Sim;Não;Dois ou mais;Ambos os sexos;Ignorado;Ignorado
-2025-12-30;2010-07-12;15,0;Feminino;Branca;Miradouro;Residencia;Sim;Sim;Não;Não;Não;;;Heterossexual;Não se aplica
+2025-12-30;2010-07-12;15,0;Feminino;Branca;Miradouro;Residencia;Sim;Sim;Não;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-09-25;1982-09-21;43,0;Feminino;Branca;Guarani;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-08-05;1979-08-05;46,0;Feminino;Branca;Guarani;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-10;1993-12-13;31,0;Feminino;Parda;Guarani;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
@@ -48538,7 +48525,6 @@
 2025-12-28;1989-04-08;36,0;Feminino;Parda;Pará de Minas;Residencia;Não;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-28;1990-07-30;35,0;Feminino;Branca;Pará de Minas;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Bissexual;Ignorado
 2025-12-28;1980-04-30;45,0;Feminino;Branca;Pará de Minas;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-12-27;1972-03-20;53,0;Feminino;Parda;Igaratinga;Via pública;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
 2025-12-23;1990-06-17;35,0;Feminino;Branca;Pará de Minas;Residencia;Não;Não;Sim;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-23;2000-09-21;25,0;Feminino;Branca;Pará de Minas;Residencia;Não;Não;Sim;Sim;Não;Um;Feminino;Homossexual;Não se aplica
 2025-12-22;1988-04-18;37,0;Feminino;Branca;Pará de Minas;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
@@ -48771,36 +48757,36 @@
 2025-12-05;2001-07-06;24,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Não;Não;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-12-20;1981-09-22;44,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Não;Sim;Sim;Ignorado;Um;Masculino;Ignorado;Ignorado
 2025-11-30;1986-06-13;39,0;Feminino;Branca;Belo Horizonte;Residencia;Sim;Sim;Não;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
-2025-12-28;1983-08-24;42,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Ignorado
 2025-12-28;1993-05-23;32,0;Feminino;Branca;Ribeirão das Neves;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
-2025-12-21;2009-05-16;16,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
+2025-12-21;2009-05-16;16,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-12-24;1978-11-04;47,0;Feminino;Preta;Ribeirão das Neves;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-25;1995-01-13;30,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Ignorado
-2025-12-24;1978-11-04;47,0;Feminino;Preta;Ribeirão das Neves;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
 2025-12-21;2006-06-18;19,0;Feminino;Preta;Belo Horizonte;Outro;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
+2025-12-28;1983-08-24;42,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-23;1999-06-30;26,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Ignorado
 2025-12-24;2011-11-29;14,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-01-04;1987-10-23;37,0;Feminino;Branca;Ribeirão das Neves;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
 2025-12-30;1989-11-24;36,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-12-30;1984-11-15;41,0;Feminino;Parda;Ribeirão das Neves;Residencia;Ignorado;Não;Sim;Não;Não;Dois ou mais;Ignorado;Homossexual;Ignorado
 2025-12-31;2012-05-14;13,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Ignorado;Não;Não;Sim;Um;Masculino;Heterossexual;Ignorado
-2025-12-31;1955-01-19;70,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
-2025-12-23;2009-09-27;16,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Não;Não;Um;Masculino;Heterossexual;Ignorado
-2025-12-19;2013-06-08;12,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Não;Não;Não;Não;Sim;Um;Masculino;Ignorado;Ignorado
-2025-12-12;1984-09-20;41,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
+2025-12-31;1955-01-19;70,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-12-12;1984-09-20;41,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-03;1998-05-19;27,0;Feminino;Preta;Ribeirão das Neves;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
+2025-12-19;2013-06-08;12,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
+2025-12-20;1978-08-24;47,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Não;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-26;2002-01-11;23,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
-2025-12-26;1986-08-19;39,0;Feminino;Branca;Ribeirão das Neves;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
-2025-12-21;2007-06-24;18,0;Feminino;Parda;Ribeirão das Neves;Bar ou similar;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Ignorado
 2025-12-17;1980-06-10;45,0;Feminino;Preta;Ribeirão das Neves;Via pública;Sim;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
-2025-12-18;1969-11-01;56,0;Feminino;Parda;Ribeirão das Neves;Residencia;Ignorado;Não;Sim;Não;Não;Ignorado;Ignorado;Não se aplica;Não se aplica
-2025-12-27;2003-10-03;22,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Ignorado
-2025-12-29;1981-01-06;44,0;Feminino;Parda;Ribeirão das Neves;Residencia;Ignorado;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
-2025-12-29;1988-11-01;37,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Homossexual;Ignorado
+2025-12-26;1986-08-19;39,0;Feminino;Branca;Ribeirão das Neves;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-12-21;2007-06-24;18,0;Feminino;Parda;Ribeirão das Neves;Bar ou similar;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
+2025-12-27;2003-10-03;22,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-12-29;1981-01-06;44,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-12-26;1981-06-14;44,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Ignorado
-2025-12-18;1991-02-21;34,0;Feminino;Parda;Ribeirão das Neves;Via pública;Sim;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-11-10;2010-11-26;14,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-12-15;1999-04-06;26,0;Feminino;Branca;Belo Horizonte;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-04-22;2016-08-05;8,0;Feminino;Preta;Belo Horizonte;Residencia;Ignorado;Ignorado;Não;Não;Não;Ignorado;Feminino;Não se aplica;Não se aplica
+2025-12-18;1991-02-21;34,0;Feminino;Parda;Ribeirão das Neves;Via pública;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-12-29;1988-11-01;37,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
+2025-12-18;1969-11-01;56,0;Feminino;Parda;Ribeirão das Neves;Residencia;Ignorado;Não;Sim;Não;Não;Dois ou mais;Ignorado;Heterossexual;Não se aplica
 2025-01-12;1951-02-16;73,0;Feminino;Branca;Belo Horizonte;Residencia;Sim;Não;Ignorado;Sim;Ignorado;Um;Masculino;Heterossexual;Ignorado
 2025-12-13;2005-01-02;20,0;Feminino;Parda;Belo Horizonte;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Bissexual;Ignorado
 2025-11-12;1978-12-26;46,0;Feminino;Branca;Belo Horizonte;Comercio/Serviços;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Não se aplica;Não se aplica
@@ -49228,7 +49214,7 @@
 2025-12-17;1992-09-09;33,0;Feminino;Parda;Belo Horizonte;Via pública;Sim;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-11-11;1994-12-14;30,0;Feminino;Branca;Belo Horizonte;Outro;Ignorado;Não;Sim;Não;Não;Ignorado;Ignorado;Ignorado;Ignorado
 2025-12-14;1985-01-26;40,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Sim;Ignorado;Ignorado;Ignorado;Um;Feminino;Ignorado;Ignorado
-2025-12-27;1984-11-11;41,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Não;Sim;Não;Não;Dois ou mais;Ignorado;Ignorado;Ignorado
+2025-12-27;1984-11-11;41,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Não;Não;Sim;Não;Não;Dois ou mais;Ignorado;Heterossexual;Não se aplica
 2025-12-15;1986-04-07;39,0;Feminino;Parda;Belo Horizonte;Residencia;Não;Sim;Sim;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
 2025-11-29;1974-03-24;51,0;Feminino;Parda;Contagem;Ignorado;Ignorado;Não;Sim;Não;Não;Ignorado;Ignorado;Ignorado;Ignorado
 2025-12-20;1982-04-17;43,0;Feminino;Branca;Lagoa Santa;Ignorado;Ignorado;Não;Sim;Não;Não;Dois ou mais;Masculino;Ignorado;Ignorado
@@ -49257,7 +49243,6 @@
 2025-12-28;1999-01-27;26,0;Feminino;Ignorado;Betim;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-12-30;2010-05-09;15,0;Feminino;Parda;Matozinhos;Residencia;Ignorado;Sim;Sim;Não;Não;Dois ou mais;Feminino;Ignorado;Não se aplica
 2025-12-30;2004-11-04;21,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Não;Sim;Não;Não;Ignorado;Ignorado;Ignorado;Ignorado
-2025-12-23;1982-01-21;43,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Ignorado
 2025-12-30;1992-09-06;33,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Não;Sim;Não;Não;Um;Ignorado;Ignorado;Ignorado
 2025-11-14;1980-06-20;45,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Ignorado;Ignorado
 2025-12-30;1989-01-09;36,0;Feminino;Preta;Ribeirão das Neves;Via pública;Ignorado;Não;Sim;Ignorado;Sim;Ignorado;Masculino;Ignorado;Ignorado
@@ -49265,6 +49250,7 @@
 2025-12-23;2025-09-06;0,0;Feminino;Branca;Belo Horizonte;Habitação coletiva;;Não;Sim;Sim;Não;Ignorado;Ignorado;Não se aplica;Não se aplica
 2025-11-04;1991-06-01;34,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-12-28;1997-08-07;28,0;Feminino;Parda;Ribeirão das Neves;Ignorado;Ignorado;Ignorado;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
+2025-12-23;1982-01-21;43,0;Feminino;Parda;Ribeirão das Neves;Residencia;Ignorado;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
 2025-12-30;1984-01-04;41,0;Feminino;Parda;Ribeirão das Neves;Outro;Ignorado;Ignorado;Sim;Não;Não;Um;Ignorado;Ignorado;Ignorado
 2025-11-14;2002-10-26;23,0;Feminino;Preta;Ribeirão das Neves;Residencia;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Ignorado;Ignorado
 2025-12-23;1972-10-04;53,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
@@ -49852,8 +49838,8 @@
 2025-09-30;2012-05-05;13,0;Feminino;Preta;Uberaba;Ignorado;Sim;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Ignorado
 2025-07-23;2011-03-04;13,0;Feminino;Branca;Frutal;Residencia;Ignorado;Não;Não;Não;Sim;Um;Masculino;Ignorado;Ignorado
 2025-08-25;2023-04-11;2,0;Feminino;Branca;Belo Horizonte;Outro;Ignorado;Não;Não;Não;Sim;Ignorado;Ignorado;Não se aplica;Não se aplica
-2025-11-24;2012-04-13;13,0;Feminino;Preta;Belo Horizonte;Residencia;Ignorado;Não;Sim;Sim;Sim;Um;Masculino;Não se aplica;Ignorado
 2025-09-08;2003-03-31;22,0;Feminino;Preta;Ouro Preto;Residencia;Sim;Não;Não;Sim;Não;Ignorado;Feminino;Heterossexual;Ignorado
+2025-11-24;2012-04-13;13,0;Feminino;Preta;Belo Horizonte;Residencia;Ignorado;Não;Sim;Sim;Sim;Um;Masculino;Não se aplica;Ignorado
 2025-11-06;2008-03-11;17,0;Feminino;Parda;Nova Lima;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Não se aplica
 2025-12-26;2007-10-09;18,0;Feminino;Parda;São Joaquim de Bicas;Residencia;Não;Sim;Sim;Não;Não;Um;Feminino;Ignorado;Ignorado
 2025-11-23;2016-02-27;9,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Ignorado;Ignorado;Ignorado;Sim;Um;Masculino;Não se aplica;Não se aplica
@@ -49864,10 +49850,10 @@
 2025-11-21;2005-12-16;19,0;Feminino;Parda;Belo Horizonte;Via pública;Sim;Não;Sim;Ignorado;Ignorado;Um;Masculino;Não se aplica;Não se aplica
 2025-12-12;2011-02-23;14,0;Feminino;Branca;Belo Horizonte;Residencia;Sim;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-12-15;2009-06-21;16,0;Feminino;Parda;Belo Horizonte;Ignorado;Ignorado;Ignorado;Sim;Sim;Ignorado;Um;Feminino;Ignorado;Ignorado
-2025-11-11;2013-01-14;12,0;Feminino;Preta;Belo Horizonte;Ignorado;Sim;Não;Ignorado;Sim;Sim;Um;Masculino;Heterossexual;Ignorado
-2025-10-30;2022-01-19;3,0;Feminino;Parda;Belo Horizonte;Escola;Ignorado;Ignorado;Não;Sim;Sim;Um;Feminino;Não se aplica;Não se aplica
 2025-11-21;1999-09-06;26,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Ignorado;Não;;;Um;Feminino;Ignorado;Ignorado
 2025-12-21;2016-06-15;9,0;Feminino;Parda;Belo Horizonte;Escola;Ignorado;Ignorado;Sim;Ignorado;Ignorado;Um;Ignorado;Não se aplica;Não se aplica
+2025-10-30;2022-01-19;3,0;Feminino;Parda;Belo Horizonte;Escola;Ignorado;Ignorado;Não;Sim;Sim;Um;Feminino;Não se aplica;Não se aplica
+2025-11-11;2013-01-14;12,0;Feminino;Preta;Belo Horizonte;Outro;Sim;Não;Ignorado;Sim;Sim;Um;Masculino;Heterossexual;Ignorado
 2025-12-23;2004-03-15;21,0;Feminino;Parda;Belo Horizonte;Via pública;Não;Não;Sim;;;Um;Masculino;Heterossexual;Não se aplica
 2025-10-29;2023-10-14;2,0;Feminino;Indígena;Belo Horizonte;;;;;;;;;;
 2025-11-26;2010-08-05;15,0;Feminino;Parda;Belo Horizonte;Residencia;Ignorado;Não;Sim;Ignorado;Ignorado;Um;Masculino;Ignorado;Ignorado
@@ -50248,7 +50234,7 @@
 2025-11-21;1978-01-25;47,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Ignorado;Ignorado
 2025-10-03;1987-11-30;37,0;Feminino;Preta;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Homossexual;Transsexual Mulher
 2025-11-27;1968-01-14;57,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Ignorado;Ignorado
-2025-11-26;1998-04-24;27,0;Feminino;Branca;Contagem;Residencia;Sim;Não;Ignorado;Ignorado;Ignorado;Um;Masculino;Ignorado;Ignorado
+2025-11-26;1998-04-24;27,0;Feminino;Branca;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Ignorado;Ignorado
 2025-10-11;1986-09-28;39,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Não;Sim;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-10-08;;45,0;Feminino;Ignorado;Contagem;Residencia;Sim;Não;Não;Sim;Não;Um;Masculino;Ignorado;Ignorado
 2025-10-07;;54,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Feminino;Ignorado;Ignorado
@@ -50338,7 +50324,6 @@
 2025-12-03;1986-03-24;39,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-12-03;1979-04-17;46,0;Feminino;Preta;Contagem;Residencia;Sim;Não;Não;Sim;Não;Um;Masculino;Ignorado;Ignorado
 2025-12-08;1997-11-24;28,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
-2025-12-09;1979-12-18;45,0;Feminino;Branca;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-12-09;1995-07-13;30,0;Feminino;Preta;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
 2025-12-09;1999-04-15;26,0;Feminino;Preta;Contagem;Residencia;Sim;Não;Sim;Sim;Não;Um;Feminino;Bissexual;Ignorado
 2025-12-17;;37,0;Feminino;Parda;Contagem;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
@@ -50372,3 +50357,47 @@
 2025-07-04;2009-09-19;15,0;Feminino;Parda;Governador Valadares;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
 2025-11-16;1974-08-03;51,0;Feminino;Parda;Várzea da Palma;Via pública;Sim;Sim;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
 2025-07-31;2014-07-14;11,0;Feminino;Parda;Ponte Nova;Residencia;Sim;Sim;Não;Sim;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-02-21;1995-05-11;29,0;Feminino;Parda;Espinosa;Residencia;Ignorado;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Ignorado
+2025-05-04;1988-06-17;36,0;Feminino;Branca;Patrocínio;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-02-06;1956-08-13;68,0;Feminino;Branca;Poços de Caldas;Residencia;Sim;Não;Não;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-10-11;1970-08-11;55,0;Feminino;Branca;São José da Varginha;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-12-27;1972-03-20;53,0;Feminino;Parda;Igaratinga;Via pública;Não;Não;Sim;Não;Não;Dois ou mais;Feminino;Heterossexual;Não se aplica
+2025-09-12;2000-11-09;24,0;Feminino;Parda;Igaratinga;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-11-24;2006-08-23;19,0;Feminino;Branca;Igaratinga;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-07-20;2009-10-18;15,0;Feminino;Parda;São José da Varginha;Residencia;Sim;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
+2025-12-22;2020-04-15;5,0;Feminino;Parda;Betim;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Não se aplica;Não se aplica
+2025-12-27;1960-01-23;65,0;Feminino;Parda;Betim;Outro;Não;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Ignorado
+2025-12-22;1997-07-28;28,0;Feminino;Parda;Esmeraldas;Via pública;Não;Não;Sim;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
+2025-12-22;1995-04-16;30,0;Feminino;Preta;Betim;Ignorado;Ignorado;Não;Sim;Não;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
+2025-12-18;2011-02-27;14,0;Feminino;Parda;Betim;Via pública;Não;Não;Não;Não;Não;Ignorado;Ignorado;Ignorado;Ignorado
+2025-12-21;1982-02-07;43,0;Feminino;Branca;Betim;Outro;Sim;Não;Sim;Sim;Sim;Dois ou mais;Masculino;Heterossexual;Não se aplica
+2025-12-21;1999-02-10;26,0;Feminino;Preta;Betim;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Ignorado
+2025-12-22;1993-07-17;32,0;Feminino;Parda;Betim;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
+2025-12-18;2010-01-26;15,0;Feminino;Branca;Betim;Ignorado;Ignorado;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
+2025-12-17;2012-09-26;13,0;Feminino;Branca;Betim;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
+2025-10-14;1979-10-07;46,0;Feminino;Preta;Betim;Via pública;Ignorado;Sim;Não;Não;Não;Um;Feminino;Não se aplica;Não se aplica
+2025-12-21;2022-05-03;3,0;Feminino;Parda;São Joaquim de Bicas;Residencia;Não;Não;Sim;Não;Sim;Dois ou mais;Ambos os sexos;Não se aplica;Não se aplica
+2025-12-29;2000-05-25;25,0;Feminino;Preta;Betim;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-12-17;2022-11-30;3,0;Feminino;Branca;Contagem;Escola;Ignorado;Ignorado;Sim;Não;Não;Um;Masculino;Não se aplica;Não se aplica
+2025-12-21;2020-06-27;5,0;Feminino;Ignorado;Betim;Outro;Não;Não;Sim;Sim;Sim;Um;Masculino;Não se aplica;Não se aplica
+2025-03-25;1997-12-02;27,0;Feminino;Parda;Ribeirão das Neves;Residencia;Não;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-12-17;1998-02-17;27,0;Feminino;Parda;Brumadinho;Via pública;Não;Não;Sim;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
+2025-12-20;2018-10-06;7,0;Feminino;Parda;São Gotardo;Ignorado;Não;Não;Não;Não;Sim;Um;Ignorado;Não se aplica;Não se aplica
+2025-05-20;1975-10-08;49,0;Feminino;Parda;Patos de Minas;Residencia;Sim;Sim;Sim;Não;Não;Um;Feminino;Heterossexual;Não se aplica
+2025-06-25;2011-08-29;13,0;Feminino;Branca;Mercês;Residencia;Não;Não;Não;Não;Sim;Um;Masculino;Heterossexual;Não se aplica
+2025-02-15;1976-06-12;48,0;Feminino;Parda;Maravilhas;Bar ou similar;Não;Não;Sim;Não;Não;Dois ou mais;Masculino;Não se aplica;Não se aplica
+2025-12-13;2007-10-31;18,0;Feminino;Parda;Pequi;Via pública;Não;Não;Sim;Sim;Não;Dois ou mais;Masculino;Não se aplica;Não se aplica
+2025-01-28;2014-06-20;10,0;Feminino;Parda;Pequi;Residencia;Não;Não;Sim;Não;Não;Um;Masculino;Não se aplica;Não se aplica
+2025-09-20;1981-02-14;44,0;Feminino;Parda;Pequi;Residencia;Não;Não;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
+2025-08-22;1974-10-21;50,0;Feminino;Branca;Divinésia;Residencia;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-11-18;2010-08-19;15,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Heterossexual;Ignorado
+2025-12-15;1997-03-28;28,0;Feminino;Parda;Belo Horizonte;Residencia;Sim;Não;Sim;Não;Não;Um;Masculino;Ignorado;Ignorado
+2025-12-23;1995-09-07;30,0;Feminino;Preta;Belo Horizonte;Comercio/Serviços;Não;Não;Não;Não;Sim;Um;Masculino;Ignorado;Ignorado
+2025-11-13;2015-01-09;10,0;Feminino;Amarela;Belo Horizonte;Escola;Não;Não;Sim;Não;Não;Um;Ignorado;Ignorado;Ignorado
+2025-11-05;1986-10-17;38,0;Feminino;Preta;Belo Horizonte;Residencia;Não;Não;Sim;Sim;Não;Dois ou mais;Masculino;Heterossexual;Não se aplica
+2025-05-13;2004-06-15;20,0;Feminino;Branca;Ribeirão das Neves;Residencia;Sim;Sim;Não;Não;Não;Um;Feminino;Ignorado;Ignorado
+2025-12-17;2001-10-11;24,0;Feminino;Parda;Belo Horizonte;Via pública;Sim;Não;Sim;Não;Não;Um;Masculino;Não se aplica;Não se aplica
+2025-12-17;1994-11-23;30,0;Feminino;Branca;Belo Horizonte;Via pública;Sim;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-09-05;1991-04-26;34,0;Feminino;Branca;Belo Horizonte;Residencia;Sim;Não;Sim;Sim;Sim;Um;Masculino;Heterossexual;Não se aplica
+2025-05-11;1970-12-05;54,0;Feminino;Branca;Santa Luzia;Residencia;Ignorado;Não;Sim;Sim;Não;Um;Masculino;Heterossexual;Não se aplica
+2025-12-23;2009-09-27;16,0;Feminino;Parda;Ribeirão das Neves;Residencia;Sim;Sim;Sim;Não;Não;Um;Masculino;Heterossexual;Não se aplica
